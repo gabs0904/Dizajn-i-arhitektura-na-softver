@@ -1,0 +1,22 @@
+<osm-script>
+  <query into="_" type="area">
+    <has-kv k="ISO3166-1" modv="" v="MK"/>
+    <has-kv k="admin_level" modv="" v="2"/>
+  </query>
+  <union into="_">
+    <query into="_" type="node">
+      <has-kv k="amenity" modv="" v=""/>
+      <has-kv k="name" modv="" v=""/>
+      <area-query/>
+    </query>
+    <query into="_" type="way">
+      <has-kv k="amenity" modv="" v=""/>
+      <area-query/>
+    </query>
+    <query into="_" type="relation">
+      <has-kv k="amenity" modv="" v=""/>
+      <area-query/>
+    </query>
+  </union>
+  <print e="" from="_" geometry="center" ids="yes" limit="" mode="body" n="" order="id" s="" w=""/>
+</osm-script>
