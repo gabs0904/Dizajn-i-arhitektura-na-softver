@@ -30,7 +30,8 @@
 font-weight: normal;
 font-size: 26px;
 line-height: 32px;">Search results:</p>
-        <p> </p>
+        <p>Hi</p>
+
       </div>
       <div class="searchbar">
         <input type="text" placeholder="Search..">
@@ -52,9 +53,15 @@ line-height: 32px;">Search results:</p>
       </defs>
     </svg>
 
+
   </div>
 </template>
 <style>
+#searchresults{
+  position: absolute;
+  top:100px;
+  left:300px;
+}
 #illustrationgirl{
   width: 170px;
   margin-top:290px;
@@ -115,6 +122,8 @@ svg{
 }
 </style>
 <script>
+import '../assets/test.js';
+import geojson from 'filtered.geojson'
 export default {
   name: "gray-page2",
   created: function () {
@@ -123,8 +132,15 @@ export default {
   destroyed: function () {
     document.body.style.backgroundColor = null;
   },
+  data() {
+    return {
+      coordinates: [],
+      name: '',
+      city:'',
+      json:geojson
+    }
+  }
 };
-
 
 
 </script>
