@@ -1,0 +1,6060 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/310289760",
+        "amenity": "cafe",
+        "name": "Broz Cafe",
+        "name:en": "(Still there)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.416703,
+          42.0001541
+        ]
+      },
+      "id": "node/310289760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382650535",
+        "amenity": "cafe",
+        "name": "Total"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0110153,
+          41.4372049
+        ]
+      },
+      "id": "node/382650535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382650733",
+        "amenity": "cafe",
+        "name": "Roma"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0110601,
+          41.437027
+        ]
+      },
+      "id": "node/382650733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/386703438",
+        "amenity": "cafe",
+        "name": "Blue Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0131384,
+          41.4352466
+        ]
+      },
+      "id": "node/386703438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/386704854",
+        "amenity": "cafe",
+        "name": "Picaso"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0104295,
+          41.4398268
+        ]
+      },
+      "id": "node/386704854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/411008299",
+        "amenity": "cafe",
+        "name": "Benneton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4232268,
+          41.9948867
+        ]
+      },
+      "id": "node/411008299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/411008532",
+        "amenity": "cafe",
+        "name": "AMG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4230113,
+          41.9948604
+        ]
+      },
+      "id": "node/411008532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/411009859",
+        "addr:housenumber": "24",
+        "addr:street": "Dimitrija Cupovski",
+        "amenity": "cafe",
+        "name": "Strip"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4253358,
+          41.9955693
+        ]
+      },
+      "id": "node/411009859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/411634097",
+        "amenity": "cafe",
+        "name": "Олд Скул",
+        "name:en": "Old School"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2483529,
+          41.3679722
+        ]
+      },
+      "id": "node/411634097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/414619173",
+        "amenity": "cafe",
+        "name": "First"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2168806,
+          41.5069813
+        ]
+      },
+      "id": "node/414619173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/414619174",
+        "amenity": "cafe",
+        "name": "Кафе Бар Ш",
+        "name:en": "Cafe Bar Š"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2163903,
+          41.5067247
+        ]
+      },
+      "id": "node/414619174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/414620827",
+        "amenity": "cafe",
+        "name": "Kardinal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2165604,
+          41.5133537
+        ]
+      },
+      "id": "node/414620827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/441057694",
+        "amenity": "cafe",
+        "name": "Cafeteria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4082395,
+          42.0051454
+        ]
+      },
+      "id": "node/441057694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/444537208",
+        "amenity": "cafe",
+        "name": "Класик",
+        "name:en": "Klasik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4105571,
+          41.9173917
+        ]
+      },
+      "id": "node/444537208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/444537212",
+        "amenity": "cafe",
+        "name": "Delikates Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4107281,
+          41.9176649
+        ]
+      },
+      "id": "node/444537212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459666031",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4139237,
+          42.0069784
+        ]
+      },
+      "id": "node/459666031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459670767",
+        "addr:city": "Скопје",
+        "addr:postcode": "1000",
+        "addr:street": "Македонија",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Caffe Skopje",
+        "opening_hours": "Mo-Su 08:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4310013,
+          41.9952414
+        ]
+      },
+      "id": "node/459670767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459670881",
+        "addr:city": "Скопје",
+        "addr:postcode": "1000",
+        "addr:street": "Македонија",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Play Cafe",
+        "name:en": "Play Cafe",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.429836,
+          41.992653
+        ]
+      },
+      "id": "node/459670881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459672751",
+        "amenity": "cafe",
+        "old_name": "СПА"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4164328,
+          41.9939731
+        ]
+      },
+      "id": "node/459672751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459673240",
+        "amenity": "cafe",
+        "name": "9"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4162239,
+          41.9934306
+        ]
+      },
+      "id": "node/459673240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459752642",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Bistro Opera Pub",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4373453,
+          41.9984414
+        ]
+      },
+      "id": "node/459752642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459801246",
+        "amenity": "cafe",
+        "name": "Мартини"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3999451,
+          42.0031059
+        ]
+      },
+      "id": "node/459801246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/459802458",
+        "amenity": "cafe",
+        "name": "Бугати",
+        "name:en": "Bugatti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4159604,
+          42.0047028
+        ]
+      },
+      "id": "node/459802458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461659372",
+        "amenity": "cafe",
+        "name": "City Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6389491,
+          41.4389263
+        ]
+      },
+      "id": "node/461659372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461659456",
+        "amenity": "cafe",
+        "name": "Inside Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6390517,
+          41.4390994
+        ]
+      },
+      "id": "node/461659456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461659572",
+        "amenity": "cafe",
+        "name": "Inside Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6390002,
+          41.4390286
+        ]
+      },
+      "id": "node/461659572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461660689",
+        "amenity": "cafe",
+        "name": "Extreme Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.637799,
+          41.4397692
+        ]
+      },
+      "id": "node/461660689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461660729",
+        "amenity": "cafe",
+        "name": "PR Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6377556,
+          41.4397043
+        ]
+      },
+      "id": "node/461660729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/461660842",
+        "amenity": "cafe",
+        "name": "Cafe 19"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6378848,
+          41.4395247
+        ]
+      },
+      "id": "node/461660842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/470029606",
+        "addr:postcode": "1330",
+        "addr:street": "Свети Јоаким Осоговски",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Galerija",
+        "opening_hours": "Mo-Su 09:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3362079,
+          42.2056104
+        ]
+      },
+      "id": "node/470029606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/470029612",
+        "addr:postcode": "1330",
+        "addr:street": "Свети Јоаким Осоговски",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Fashion cafe",
+        "opening_hours": "Mo-Su 08:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3365517,
+          42.2058845
+        ]
+      },
+      "id": "node/470029612"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/482083934",
+        "amenity": "cafe",
+        "int_name": "Virus",
+        "name": "Вирус",
+        "name:en": "Virus",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5539309,
+          41.3452345
+        ]
+      },
+      "id": "node/482083934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/482513381",
+        "amenity": "cafe",
+        "int_name": "Sonic",
+        "name": "Тејк Фајв",
+        "name:en": "Take Five",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5541527,
+          41.3456817
+        ]
+      },
+      "id": "node/482513381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/483316799",
+        "amenity": "cafe",
+        "int_name": "Di Caprio",
+        "name": "Ди Каприо",
+        "name:en": "Di Caprio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5536992,
+          41.3453183
+        ]
+      },
+      "id": "node/483316799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/499972062",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8568848,
+          41.706135
+        ]
+      },
+      "id": "node/499972062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/499972063",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8569192,
+          41.7060133
+        ]
+      },
+      "id": "node/499972063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/499972064",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8570994,
+          41.7060838
+        ]
+      },
+      "id": "node/499972064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/499972065",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8570737,
+          41.7062055
+        ]
+      },
+      "id": "node/499972065"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/529811246",
+        "amenity": "cafe",
+        "name": "Light Cofee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0167719,
+          41.4343878
+        ]
+      },
+      "id": "node/529811246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/572386052",
+        "amenity": "cafe",
+        "name": "Leone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6763146,
+          41.1776197
+        ]
+      },
+      "id": "node/572386052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/990397203",
+        "amenity": "cafe",
+        "name": "Angel's Caffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1926393,
+          41.7427284
+        ]
+      },
+      "id": "node/990397203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1233405188",
+        "amenity": "cafe",
+        "name": "miss Stoun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.8383014,
+          41.7381241
+        ]
+      },
+      "id": "node/1233405188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1355292490",
+        "amenity": "cafe",
+        "name": "Кафе Змија"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.417262,
+          42.0009888
+        ]
+      },
+      "id": "node/1355292490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1355306911",
+        "addr:housenumber": "2",
+        "addr:street": "Благој Давков",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Кафе Филипос"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4175044,
+          42.0007963
+        ]
+      },
+      "id": "node/1355306911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1475388233",
+        "amenity": "cafe",
+        "is_in": "Novo Selo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3479915,
+          42.0313055
+        ]
+      },
+      "id": "node/1475388233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1615830879",
+        "amenity": "cafe",
+        "name": "Fluid",
+        "name:en": "Fluid",
+        "name:mk": "Флуид"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.398346,
+          42.0034224
+        ]
+      },
+      "id": "node/1615830879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1682245853",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1140261,
+          41.0661743
+        ]
+      },
+      "id": "node/1682245853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1704390070",
+        "amenity": "cafe",
+        "name": "Republika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9568436,
+          41.5108813
+        ]
+      },
+      "id": "node/1704390070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1704390079",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9637041,
+          41.5129174
+        ]
+      },
+      "id": "node/1704390079"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1704390100",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9588224,
+          41.5114391
+        ]
+      },
+      "id": "node/1704390100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1710570935",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7755708,
+          41.7170863
+        ]
+      },
+      "id": "node/1710570935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1752184797",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Ли",
+        "name:en": "Lee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4091295,
+          41.997291
+        ]
+      },
+      "id": "node/1752184797"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1762408159",
+        "amenity": "cafe",
+        "int_name": "Zafir",
+        "name": "Зафир"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.718448,
+          42.13429
+        ]
+      },
+      "id": "node/1762408159"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1762412847",
+        "amenity": "cafe",
+        "name": "Irish Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7189898,
+          42.134282
+        ]
+      },
+      "id": "node/1762412847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1762413887",
+        "amenity": "cafe",
+        "int_name": "Nama Kafe",
+        "name": "Нама Кафе"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7187383,
+          42.1361779
+        ]
+      },
+      "id": "node/1762413887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1779783561",
+        "amenity": "cafe",
+        "int_name": "Fransh",
+        "name": "Франш"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7189408,
+          42.1341627
+        ]
+      },
+      "id": "node/1779783561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1790324208",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.812486,
+          41.3766989
+        ]
+      },
+      "id": "node/1790324208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1828592889",
+        "amenity": "cafe",
+        "int_name": "Stobi",
+        "name": "Стоби",
+        "name:en": "Stobi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9748986,
+          41.5502944
+        ]
+      },
+      "id": "node/1828592889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1850511008",
+        "amenity": "cafe",
+        "name": "Royal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4484,
+          42.0582551
+        ]
+      },
+      "id": "node/1850511008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1850511013",
+        "amenity": "cafe",
+        "name": "Шема"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4502266,
+          42.060135
+        ]
+      },
+      "id": "node/1850511013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1851476126",
+        "amenity": "cafe",
+        "name": "Red Caffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4504664,
+          41.9915282
+        ]
+      },
+      "id": "node/1851476126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1860365710",
+        "amenity": "cafe",
+        "name": "Аристократ кафе",
+        "name:en": "Aristokrat cafe",
+        "shop": "confectionery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4644629,
+          42.0026068
+        ]
+      },
+      "id": "node/1860365710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1868776879",
+        "amenity": "cafe",
+        "name": "Outlet Concept Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.403605,
+          42.0092296
+        ]
+      },
+      "id": "node/1868776879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1876583691",
+        "amenity": "cafe",
+        "name": "Кафе Писта"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4768613,
+          41.9897212
+        ]
+      },
+      "id": "node/1876583691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1876584011",
+        "amenity": "cafe",
+        "name": "Кафе Мамбо"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4758817,
+          41.9894222
+        ]
+      },
+      "id": "node/1876584011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1995773090",
+        "amenity": "cafe",
+        "int_name": "Korzo",
+        "name": "Корзо"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7187933,
+          42.1343519
+        ]
+      },
+      "id": "node/1995773090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2004975256",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4659543,
+          41.9851089
+        ]
+      },
+      "id": "node/2004975256"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2054895230",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Up Cafe",
+        "opening_hours": "Mo-Sa 08:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4324491,
+          41.9950653
+        ]
+      },
+      "id": "node/2054895230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2183842282",
+        "amenity": "cafe",
+        "name": "EMPIRE"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6790916,
+          41.1783994
+        ]
+      },
+      "id": "node/2183842282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2276498829",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4093297,
+          41.995913
+        ]
+      },
+      "id": "node/2276498829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2298054794",
+        "amenity": "cafe",
+        "cof": "cof",
+        "name": "Badu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3722969,
+          42.0071574
+        ]
+      },
+      "id": "node/2298054794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2316137207",
+        "amenity": "cafe",
+        "name": "Кафе Пајтон"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3363912,
+          41.0275814
+        ]
+      },
+      "id": "node/2316137207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2316156266",
+        "amenity": "cafe",
+        "name": "Cafe Bar Touch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.337129,
+          41.0248295
+        ]
+      },
+      "id": "node/2316156266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2316156269",
+        "amenity": "cafe",
+        "name": "Art Cafе"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3366193,
+          41.0257036
+        ]
+      },
+      "id": "node/2316156269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2316156270",
+        "amenity": "cafe",
+        "name": "Globaltech"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3365818,
+          41.0247991
+        ]
+      },
+      "id": "node/2316156270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2316156281",
+        "amenity": "cafe",
+        "name": "Internet Club Alex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3365737,
+          41.0246534
+        ]
+      },
+      "id": "node/2316156281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2320912388",
+        "amenity": "cafe",
+        "name": "Уни Пуб",
+        "name:en": "Uni Pub"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4105004,
+          41.91759
+        ]
+      },
+      "id": "node/2320912388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2320912411",
+        "amenity": "cafe",
+        "name": "Пикадили",
+        "name:en": "Piccadilly"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4105147,
+          41.9175044
+        ]
+      },
+      "id": "node/2320912411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2330740196",
+        "amenity": "cafe",
+        "name": "Планет",
+        "name:en": "Planet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2484945,
+          41.3683487
+        ]
+      },
+      "id": "node/2330740196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377968940",
+        "amenity": "cafe",
+        "name": "Два бисера"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7995188,
+          41.1131665
+        ]
+      },
+      "id": "node/2377968940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377968948",
+        "amenity": "cafe",
+        "name": "Milenium"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7992346,
+          41.1131208
+        ]
+      },
+      "id": "node/2377968948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377969086",
+        "amenity": "cafe",
+        "name": "Slavica Kafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.799142,
+          41.1130197
+        ]
+      },
+      "id": "node/2377969086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377969191",
+        "amenity": "cafe",
+        "name": "Instinct",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7990978,
+          41.1129743
+        ]
+      },
+      "id": "node/2377969191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377969197",
+        "amenity": "cafe",
+        "name": "Galerija"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7992077,
+          41.1130834
+        ]
+      },
+      "id": "node/2377969197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2377969339",
+        "amenity": "cafe",
+        "name": "ВЛАДИ",
+        "outdoor_seating": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.799048,
+          41.1129098
+        ]
+      },
+      "id": "node/2377969339"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2539581007",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Quatro Caffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.446234,
+          41.9734649
+        ]
+      },
+      "id": "node/2539581007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2539581507",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Bass Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4456656,
+          41.9732771
+        ]
+      },
+      "id": "node/2539581507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2814545377",
+        "addr:housenumber": "1",
+        "addr:street": "Никола Вапцаров",
+        "amenity": "cafe",
+        "int_name": "Bokata",
+        "internet_access": "yes",
+        "location": "Center",
+        "name": "Bocata",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4308204,
+          41.9955477
+        ]
+      },
+      "id": "node/2814545377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2814545378",
+        "addr:city": "Скопје",
+        "addr:postcode": "1000",
+        "addr:street": "Македонија",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Coffee Factory 2",
+        "opening_hours": "Mo-Sa 08:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4308588,
+          41.9949424
+        ]
+      },
+      "id": "node/2814545378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2883877894",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Палма",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4534598,
+          41.9885844
+        ]
+      },
+      "id": "node/2883877894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2893639221",
+        "amenity": "cafe",
+        "name": "Клиф",
+        "name:en": "Cliff of Moher"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5893701,
+          42.0217484
+        ]
+      },
+      "id": "node/2893639221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2893639222",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Delirium",
+        "opening_hours": "Mo-Su 08:00-24:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5892057,
+          42.0218468
+        ]
+      },
+      "id": "node/2893639222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2905985815",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "District Lounge Bar",
+        "opening_hours": "Mo-Su 08:00-24:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5900047,
+          42.021859
+        ]
+      },
+      "id": "node/2905985815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2918525856",
+        "amenity": "cafe",
+        "wifi": "free"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9744776,
+          41.8379148
+        ]
+      },
+      "id": "node/2918525856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2918533769",
+        "amenity": "cafe",
+        "name": "Боси",
+        "wifi": "free"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9743998,
+          41.8377412
+        ]
+      },
+      "id": "node/2918533769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2992591829",
+        "addr:city": "Cкoпje",
+        "addr:city:en": "Skopje",
+        "addr:country": "MK",
+        "addr:postcode": "1000",
+        "amenity": "cafe",
+        "cuisine": "Coffee,_Tea,_cold_drinks",
+        "internet_access": "yes",
+        "location": "Old Bazaar",
+        "name": "Mon Frere",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4370632,
+          42.0017629
+        ]
+      },
+      "id": "node/2992591829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3005353406",
+        "amenity": "cafe",
+        "int_name": "Kadmo bar",
+        "name": "Кадмо-бар"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7967146,
+          41.1118183
+        ]
+      },
+      "id": "node/3005353406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3022305008",
+        "addr:city": "Kriva Palanka",
+        "addr:postcode": "1330",
+        "addr:street": "Joakim Osogovski",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Select Caffe",
+        "opening_hours": "Mo-Su 08:00-01:00",
+        "smoking": "isolated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.3355446,
+          42.2022003
+        ]
+      },
+      "id": "node/3022305008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3076974736",
+        "amenity": "cafe",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.771611,
+          40.9180328
+        ]
+      },
+      "id": "node/3076974736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3098482741",
+        "addr:housenumber": "16",
+        "addr:street": "Рудничка",
+        "amenity": "cafe",
+        "name": "Cross Roads"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9586946,
+          41.5092313
+        ]
+      },
+      "id": "node/3098482741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3099553253",
+        "amenity": "cafe",
+        "name": "Cafe-inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6274047,
+          41.9608168
+        ]
+      },
+      "id": "node/3099553253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3100113827",
+        "amenity": "cafe",
+        "name": "Cafe Experience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.801058,
+          41.1135786
+        ]
+      },
+      "id": "node/3100113827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3101725379",
+        "amenity": "cafe",
+        "location": "Old Bazaar",
+        "name": "Old Town",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4368849,
+          41.999241
+        ]
+      },
+      "id": "node/3101725379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3101726037",
+        "amenity": "cafe",
+        "location": "Old Bazaar",
+        "name": "Nargile Cafe",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4358699,
+          42.0000003
+        ]
+      },
+      "id": "node/3101726037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3103985004",
+        "addr:city": "Cкoпje",
+        "addr:country": "MK",
+        "addr:postcode": "1000",
+        "addr:street": "Кеј 13 Ноември",
+        "amenity": "cafe",
+        "cuisine": "ice_cream;pizza;pasta",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "location": "Center",
+        "name": "Telekom Trend Lounge Bar",
+        "opening_hours": "Mo-Su 08:00-24:00",
+        "outdoor_seating": "yes",
+        "smoking": "separated",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4330712,
+          41.9958677
+        ]
+      },
+      "id": "node/3103985004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3162735662",
+        "addr:city": "Radovis",
+        "addr:country": "MK",
+        "addr:postcode": "2420",
+        "addr:street": "Коста Сусинов",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Ti-Amo",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.461401,
+          41.638261
+        ]
+      },
+      "id": "node/3162735662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3162751062",
+        "addr:city": "Radovis",
+        "addr:country": "MK",
+        "addr:postcode": "2420",
+        "addr:street": "22 Октомври",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Virus",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.462999,
+          41.636975
+        ]
+      },
+      "id": "node/3162751062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3187746716",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Escape",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.460143,
+          41.639155
+        ]
+      },
+      "id": "node/3187746716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3341289752",
+        "addr:city": "Скопје",
+        "addr:housenumber": "41",
+        "addr:postcode": "1000",
+        "addr:street": "Македонија",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Bistro Skopje",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "outdoor_seating": "yes",
+        "smoking": "separated",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4306195,
+          41.9944452
+        ]
+      },
+      "id": "node/3341289752"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3341289753",
+        "addr:city": "Скопје",
+        "addr:postcode": "1000",
+        "addr:street": "Македонија",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Gnezdo",
+        "old_name": "Il Caffè di Roma",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.430365,
+          41.9938562
+        ]
+      },
+      "id": "node/3341289753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3341289786",
+        "addr:city": "Скопје",
+        "addr:postcode": "1000",
+        "addr:street": "Македонија",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Caffe Novo",
+        "opening_hours": "Mo-Su 09:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4302256,
+          41.9929701
+        ]
+      },
+      "id": "node/3341289786"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3341289788",
+        "addr:city": "Скопје",
+        "addr:postcode": "1000",
+        "addr:street": "Македонија",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Caffe Bar Dolce Vita",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4298707,
+          41.9927362
+        ]
+      },
+      "id": "node/3341289788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3341289790",
+        "addr:city": "Скопје",
+        "addr:postcode": "1000",
+        "addr:street": "Даме Груев",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Corsso",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4293734,
+          41.9923772
+        ]
+      },
+      "id": "node/3341289790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3506696093",
+        "amenity": "cafe",
+        "email": "trendcitymall@caffetrend.mk",
+        "name": "Trend Food Bar",
+        "name:en": "Trend Food Bar",
+        "opening_hours": "08:00-00:00; Fr-Sa 08:00-01:00",
+        "outdoor_seating": "yes",
+        "phone": "+389 70 306425",
+        "smoking": "separated",
+        "website": "http://www.caffetrend.mk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3909265,
+          42.0041936
+        ]
+      },
+      "id": "node/3506696093"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660965814",
+        "amenity": "cafe",
+        "name": "Cocktail Bar - Uno Mars",
+        "opening_hours": "8:00 - 00:00",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.334101,
+          41.0273541
+        ]
+      },
+      "id": "node/3660965814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3663767991",
+        "addr:city": "Cкoпje",
+        "addr:postcode": "1000",
+        "amenity": "cafe",
+        "name": "The Gallery",
+        "opening_hours": "Mo-Th 07:30-24:00, Fr 07:30-01:00, Sa 08:00-01:00, Su 08:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.415006,
+          42.0038265
+        ]
+      },
+      "id": "node/3663767991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3663767992",
+        "addr:city": "Cкoпje",
+        "addr:postcode": "1000",
+        "amenity": "cafe",
+        "name": "MonAmi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4151255,
+          42.0039722
+        ]
+      },
+      "id": "node/3663767992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3663767994",
+        "addr:city": "Cкoпje",
+        "addr:postcode": "1000",
+        "amenity": "cafe",
+        "name": "Жапон Кафе Бар",
+        "name:en": "Zapon Coffee Bar",
+        "opening_hours": "07:30 - 23:30"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.415173,
+          42.0040547
+        ]
+      },
+      "id": "node/3663767994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3663767995",
+        "addr:city": "Cкoпje",
+        "addr:postcode": "1000",
+        "amenity": "cafe",
+        "name": "Cafe Bela",
+        "opening_hours": "09:00 - 00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4146731,
+          42.0042809
+        ]
+      },
+      "id": "node/3663767995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3699303243",
+        "addr:city": "Делчево",
+        "addr:postcode": "2320",
+        "addr:street": "Н. Ј. Вапцаров",
+        "amenity": "cafe",
+        "name": "Apolon",
+        "name:en": "Apolon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7757929,
+          41.9669685
+        ]
+      },
+      "id": "node/3699303243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3699303244",
+        "addr:city": "Делчево",
+        "addr:postcode": "2320",
+        "addr:street": "бул. Македонија",
+        "amenity": "cafe",
+        "name": "Валиум",
+        "name:en": "Valium Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7772992,
+          41.9671423
+        ]
+      },
+      "id": "node/3699303244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3713067440",
+        "amenity": "cafe",
+        "cuisine": "regional;burger",
+        "internet_access": "no",
+        "smoking": "separated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7733609,
+          40.9255638
+        ]
+      },
+      "id": "node/3713067440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3724711085",
+        "addr:postcode": "1220",
+        "addr:street": "Ѓорче Петров",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;italian",
+        "internet_access": "wlan",
+        "name": "Amaretta (Red&Black)",
+        "name:en": "Red'n'Black",
+        "name:mk": "Црвено'Црните",
+        "name:sq": "Kuq e Zinjtë",
+        "note": "Assembly point of Shkëndija fans.",
+        "opening_hours": "Mo-Su 07:00-23:30",
+        "smoking": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9633055,
+          42.0060772
+        ]
+      },
+      "id": "node/3724711085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750783154",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3921091,
+          42.0038662
+        ]
+      },
+      "id": "node/3750783154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755532975",
+        "amenity": "cafe",
+        "int_name": "Koncept37",
+        "name": "Концепт37",
+        "name:en": "Concept37"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4127725,
+          41.999411
+        ]
+      },
+      "id": "node/3755532975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3782619849",
+        "amenity": "cafe",
+        "name": "Национал"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.705272,
+          41.4404325
+        ]
+      },
+      "id": "node/3782619849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3822729871",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2196741,
+          41.5100518
+        ]
+      },
+      "id": "node/3822729871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3826400436",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8023447,
+          41.1127823
+        ]
+      },
+      "id": "node/3826400436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3826400441",
+        "amenity": "cafe",
+        "name": "Mojito"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8021988,
+          41.1124655
+        ]
+      },
+      "id": "node/3826400441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3828431964",
+        "amenity": "cafe",
+        "name": "Капри Кафе"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7829849,
+          41.717722
+        ]
+      },
+      "id": "node/3828431964"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832366897",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4197114,
+          41.9898526
+        ]
+      },
+      "id": "node/3832366897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4059907155",
+        "amenity": "cafe",
+        "leisure": "playground",
+        "name": "Авантура"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4171739,
+          41.9937283
+        ]
+      },
+      "id": "node/4059907155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4154573089",
+        "amenity": "cafe",
+        "cuisine": "burger;breakfast;pizza;ice_cream;tea;coffee_shop",
+        "internet_access": "wlan",
+        "name": "Riva Caffè",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "072545050"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9619853,
+          41.999321
+        ]
+      },
+      "id": "node/4154573089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4161400696",
+        "addr:street": "Кочо Рацин",
+        "amenity": "cafe",
+        "name": "Pancir Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5058453,
+          41.886544
+        ]
+      },
+      "id": "node/4161400696"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4161427291",
+        "addr:street": "Кочо Рацин",
+        "amenity": "cafe",
+        "name": "Панцир Кафе"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.50587,
+          41.8865523
+        ]
+      },
+      "id": "node/4161427291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4183580089",
+        "amenity": "cafe",
+        "cuisine": "sandwich;coffee_shop;cake",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Cakes & Bakes",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6276146,
+          41.9610488
+        ]
+      },
+      "id": "node/4183580089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4190199691",
+        "amenity": "cafe",
+        "name": "Maroon Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.971694,
+          42.0073312
+        ]
+      },
+      "id": "node/4190199691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4190204394",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Рина"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.978648,
+          41.8450656
+        ]
+      },
+      "id": "node/4190204394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4198944089",
+        "addr:city": "Cкoпje",
+        "addr:country": "MK",
+        "addr:housenumber": "4",
+        "addr:street": "Љубљанска",
+        "addr:street:en": "Ljubljanska",
+        "amenity": "cafe",
+        "name": "Ch2pter",
+        "name:en": "Ch2pter",
+        "opening_hours": "09:00-23:45; Fr-Sa 09:00-23:45",
+        "outdoor_seating": "yes",
+        "phone": "+389 75 490 155",
+        "smoking": "separated",
+        "website": "http://www.caffetrend.mk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3862677,
+          42.004606
+        ]
+      },
+      "id": "node/4198944089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4225448689",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Tonnis Bakeri",
+        "operator": "Tonnish Bakeri",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3990452,
+          42.0151641
+        ]
+      },
+      "id": "node/4225448689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4228828360",
+        "amenity": "cafe",
+        "cuisine": "local",
+        "name": "Coffeeshop Company lounge",
+        "name:en": "Mezzo Coffee & Lounge",
+        "operator": "Sistina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.404147,
+          42.0137478
+        ]
+      },
+      "id": "node/4228828360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4229063003",
+        "amenity": "cafe",
+        "name": "Liquid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9079995,
+          41.7939504
+        ]
+      },
+      "id": "node/4229063003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4233194691",
+        "amenity": "cafe",
+        "name": "Makreshanki"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3418406,
+          42.0433297
+        ]
+      },
+      "id": "node/4233194691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4234144690",
+        "addr:postcode": "1000",
+        "addr:street": "Владимир Полежановски",
+        "amenity": "cafe",
+        "name": "Belier"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4168806,
+          41.9984995
+        ]
+      },
+      "id": "node/4234144690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4239355213",
+        "amenity": "cafe",
+        "name": "Тафката"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1932005,
+          41.7370604
+        ]
+      },
+      "id": "node/4239355213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4240294389",
+        "amenity": "cafe",
+        "name": "Vami Cafe 1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1938869,
+          41.73738
+        ]
+      },
+      "id": "node/4240294389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4247226994",
+        "amenity": "cafe",
+        "diet:vegan": "yes",
+        "name": "Juicy and Co"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3910392,
+          42.0048738
+        ]
+      },
+      "id": "node/4247226994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4247663989",
+        "amenity": "cafe",
+        "name": "Dani"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9049674,
+          41.8009922
+        ]
+      },
+      "id": "node/4247663989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4267660937",
+        "amenity": "cafe",
+        "name": "Aksaraj"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.989483,
+          42.0040789
+        ]
+      },
+      "id": "node/4267660937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4290842764",
+        "addr:street": "Млаки 2",
+        "amenity": "cafe",
+        "name": "Чајџилница кај Басто",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8982089,
+          41.8060047
+        ]
+      },
+      "id": "node/4290842764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4290866991",
+        "addr:housenumber": "2",
+        "addr:street": "Димитар Влахов",
+        "amenity": "cafe",
+        "name": "Чајџилница кај Гоце ",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9113126,
+          41.7929887
+        ]
+      },
+      "id": "node/4290866991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4304451302",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "location": "Old Bazaar",
+        "name": "Clique Bar",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4366103,
+          41.9994358
+        ]
+      },
+      "id": "node/4304451302"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4324925089",
+        "amenity": "cafe",
+        "internet_access": "wlan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.772037,
+          40.9188013
+        ]
+      },
+      "id": "node/4324925089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4327921320",
+        "amenity": "cafe",
+        "name": "Prikazna"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3981384,
+          42.0033204
+        ]
+      },
+      "id": "node/4327921320"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4337632794",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.590491,
+          41.9911364
+        ]
+      },
+      "id": "node/4337632794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4338183694",
+        "amenity": "cafe",
+        "name": "Elfat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8840093,
+          41.8299622
+        ]
+      },
+      "id": "node/4338183694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4338236490",
+        "amenity": "cafe",
+        "name": "Nebi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8857573,
+          41.8413949
+        ]
+      },
+      "id": "node/4338236490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4356215591",
+        "amenity": "cafe",
+        "name": "Нова Кафе"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1957213,
+          41.7388923
+        ]
+      },
+      "id": "node/4356215591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4357163991",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Кафе-Бар Симбол"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1952544,
+          41.7372052
+        ]
+      },
+      "id": "node/4357163991"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4357166290",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1941525,
+          41.7378263
+        ]
+      },
+      "id": "node/4357166290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4359833889",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "Cafe Jabolko",
+        "opening_hours": "Mo-Su 06:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4454673,
+          41.9911127
+        ]
+      },
+      "id": "node/4359833889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4360802894",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1981705,
+          41.7441882
+        ]
+      },
+      "id": "node/4360802894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4363550889",
+        "amenity": "cafe",
+        "name": "Сајбер",
+        "name:mk": "Сајбер"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1956835,
+          41.7382123
+        ]
+      },
+      "id": "node/4363550889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4375519489",
+        "addr:postcode": "1000",
+        "addr:street": "Христо Татарчев",
+        "amenity": "cafe",
+        "name": "Гет Кафе",
+        "name:en": "Get caffe",
+        "name:mk": "Гет Кафе",
+        "opening_hours": "Mo-Su 10:00-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4448074,
+          41.9728434
+        ]
+      },
+      "id": "node/4375519489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4407818207",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.6586863,
+          41.5938633
+        ]
+      },
+      "id": "node/4407818207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4411037105",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Millennium Cafe",
+        "name:en": "Millennium Cafe",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3355792,
+          41.0288234
+        ]
+      },
+      "id": "node/4411037105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4411037106",
+        "amenity": "cafe",
+        "name": "Игучи",
+        "name:en": "Iguchi Cafe Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3357344,
+          41.0285753
+        ]
+      },
+      "id": "node/4411037106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4411107891",
+        "amenity": "cafe",
+        "name": "Ин Кафе",
+        "name:en": "In Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3359033,
+          41.0285254
+        ]
+      },
+      "id": "node/4411107891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4411125496",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Portal 2 Cafe",
+        "name:en": "Portal 2 Cafe",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3359314,
+          41.0284799
+        ]
+      },
+      "id": "node/4411125496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4414571689",
+        "amenity": "cafe",
+        "name": "јагода",
+        "name:mk": "јагода"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3367381,
+          41.0240108
+        ]
+      },
+      "id": "node/4414571689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4430465597",
+        "addr:postcode": "1220",
+        "addr:street": "Street \"146\"",
+        "amenity": "cafe",
+        "name": "Беко Кафе",
+        "name:en": "Beko's Caffe",
+        "name:sq": "Kafja Bekos",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9518032,
+          42.0012645
+        ]
+      },
+      "id": "node/4430465597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4433338390",
+        "amenity": "cafe",
+        "name": "Çajtorja Luan",
+        "name:en": "Cafe Luan",
+        "name:mk": "Çajtorja Luan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7984934,
+          41.116952
+        ]
+      },
+      "id": "node/4433338390"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4450584489",
+        "amenity": "cafe",
+        "name": "Алфа"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9685294,
+          41.8333963
+        ]
+      },
+      "id": "node/4450584489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4470299291",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Таверна Џез",
+        "name:en": "Jazz Taverna",
+        "name:mk": "Таверна Џез"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0116539,
+          41.0893491
+        ]
+      },
+      "id": "node/4470299291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4480834091",
+        "amenity": "cafe",
+        "name": "Kafe slatkarnica Turist",
+        "name:mk": "Kafe slatkarnica Turist"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7870287,
+          41.7138225
+        ]
+      },
+      "id": "node/4480834091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4484345091",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Бариста",
+        "name:en": "Barista",
+        "opening_hours": "Mo-Su 09:00-01:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5047905,
+          41.140319
+        ]
+      },
+      "id": "node/4484345091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4502456690",
+        "addr:postcode": "1221",
+        "addr:street": "101",
+        "amenity": "cafe",
+        "name": "Cine 501",
+        "name:en": "Cine 501",
+        "name:mk": "Cine 501",
+        "name:sq": "Cine 501"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9268824,
+          41.9405207
+        ]
+      },
+      "id": "node/4502456690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4502463689",
+        "addr:postcode": "1221",
+        "addr:street": "101",
+        "amenity": "cafe",
+        "name": "Sharr 71",
+        "name:en": "Sharr 71",
+        "name:mk": "Sharr 71",
+        "name:sq": "Sharr 71"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9267987,
+          41.9403239
+        ]
+      },
+      "id": "node/4502463689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4502488291",
+        "amenity": "cafe",
+        "name": "Mujo",
+        "name:en": "Mujo",
+        "name:mk": "Mujo",
+        "name:sq": "Mujo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9277266,
+          41.9427811
+        ]
+      },
+      "id": "node/4502488291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4511016243",
+        "addr:street": "Gorno Svilare",
+        "amenity": "cafe",
+        "cuisine": "chicken;burger;sandwich;grill;breakfast;kebab;tea;coffee_shop;diner;beef_bowl",
+        "internet_access": "wlan",
+        "name": "БАМИЛА",
+        "name:en": "BAMILA",
+        "name:mk": "БАМИЛА",
+        "operator": "Refik"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2795514,
+          42.0436939
+        ]
+      },
+      "id": "node/4511016243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4516027391",
+        "amenity": "cafe",
+        "name:en": "Get Caffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4496023,
+          41.9919726
+        ]
+      },
+      "id": "node/4516027391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4568492595",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Kaçamaku",
+        "name:mk": "Kaçamaku",
+        "name:sq": "Kaçamaku",
+        "opening_hours": "Mo-Su 10:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9103122,
+          41.7926594
+        ]
+      },
+      "id": "node/4568492595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4571573990",
+        "addr:street": "Александар Несторов",
+        "amenity": "cafe",
+        "name": "Дома"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7686668,
+          41.7098459
+        ]
+      },
+      "id": "node/4571573990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4586018591",
+        "addr:housenumber": "42",
+        "addr:postcode": "1430",
+        "addr:street": "Илинденска",
+        "amenity": "cafe",
+        "name": "Лего",
+        "name:en": "Lego",
+        "name:mk": "Лего"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0113116,
+          41.4358281
+        ]
+      },
+      "id": "node/4586018591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4658223491",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Лав Фонтана",
+        "name:en": "Lav Fontana",
+        "name:mk": "Лав Фонтана"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5137772,
+          42.027601
+        ]
+      },
+      "id": "node/4658223491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4724820290",
+        "addr:postcode": "1220",
+        "addr:street": "102",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "Passage",
+        "name:sq": "Pasazh",
+        "opening_hours": "Mo-Su 05:30-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9163058,
+          41.923353
+        ]
+      },
+      "id": "node/4724820290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4726508389",
+        "addr:postcode": "1200",
+        "addr:street": "Илинденска",
+        "amenity": "cafe",
+        "cuisine": "grill;italian_pizza",
+        "internet_access": "wlan",
+        "name:en": "Check-in",
+        "name:sq": "check-in",
+        "opening_hours": "Mo-Sa 08:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9622336,
+          41.9940024
+        ]
+      },
+      "id": "node/4726508389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753448921",
+        "amenity": "cafe",
+        "name": "Garden",
+        "name:en": "Garden",
+        "name:mk": "Garden"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9713496,
+          42.0075938
+        ]
+      },
+      "id": "node/4753448921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753448923",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "M House",
+        "operator": "Nebi Mustafi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.959919,
+          41.9916981
+        ]
+      },
+      "id": "node/4753448923"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753449021",
+        "amenity": "cafe",
+        "name": "Barcode",
+        "name:en": "Cavalli Club",
+        "name:mk": "Cavalli Club",
+        "name:sq": "Cavalli Club",
+        "opening_hours": "Mo-Su 08:00-23:55"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9718414,
+          42.0073693
+        ]
+      },
+      "id": "node/4753449021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753449022",
+        "amenity": "cafe",
+        "name": "Tantra",
+        "name:en": "Tantra",
+        "name:mk": "Tantra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9721424,
+          42.0072505
+        ]
+      },
+      "id": "node/4753449022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753449121",
+        "amenity": "cafe",
+        "name": "Ultra",
+        "name:en": "Ultra",
+        "name:mk": "Ultra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9602672,
+          41.9913951
+        ]
+      },
+      "id": "node/4753449121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4846704245",
+        "amenity": "cafe",
+        "name": "Крин",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4271773,
+          41.9954521
+        ]
+      },
+      "id": "node/4846704245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4854085029",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "саранда",
+        "name:sq": "Saranda",
+        "opening_hours": "Mo-Su 07:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9467534,
+          41.9158317
+        ]
+      },
+      "id": "node/4854085029"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4866008921",
+        "addr:postcode": "1200",
+        "addr:street": "Илинденска",
+        "amenity": "cafe",
+        "cuisine": "balkan",
+        "internet_access": "wlan",
+        "name": "Ток 2000",
+        "name:en": "Tok 2000",
+        "name:mk": "Ток 2000",
+        "name:sq": "Tok 2000",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "operator": "Ali",
+        "phone": "044334065"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9608123,
+          41.992301
+        ]
+      },
+      "id": "node/4866008921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4910578221",
+        "amenity": "cafe",
+        "name": "Симпл Кафе",
+        "name:en": "Simple Cafe",
+        "name:mk": "Симпл Кафе"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9791319,
+          42.0088358
+        ]
+      },
+      "id": "node/4910578221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4915241021",
+        "amenity": "cafe",
+        "name": "Репаблик Кафе",
+        "name:en": "Republic Cafe",
+        "name:mk": "Репаблик Кафе"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9740134,
+          42.0100196
+        ]
+      },
+      "id": "node/4915241021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4954778523",
+        "amenity": "cafe",
+        "name": "Елита Кафе",
+        "name:mk": "Елита Кафе"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.041931,
+          42.0609612
+        ]
+      },
+      "id": "node/4954778523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4986311121",
+        "amenity": "cafe",
+        "name:en": "Happy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.453477,
+          41.9885027
+        ]
+      },
+      "id": "node/4986311121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4988000122",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Coffe House Downtown",
+        "outdoor_seating": "yes",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4648163,
+          41.6341662
+        ]
+      },
+      "id": "node/4988000122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5058440823",
+        "addr:housenumber": "6",
+        "addr:postcode": "2000",
+        "addr:street": "Кеј Маршал Тито",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Кофи Лаб",
+        "name:en": "Coffee Lab",
+        "opening_hours": "Su-Th 08:00-00:00; Fr-Sa 08:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1959414,
+          41.738556
+        ]
+      },
+      "id": "node/5058440823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5062450021",
+        "addr:postcode": "1000",
+        "addr:street": "Џон Кенеди",
+        "amenity": "cafe",
+        "cuisine": "balkan",
+        "internet_access": "wlan",
+        "name": "Te Flladi",
+        "opening_hours": "Mo-Su 06:00-02:00",
+        "operator": "Nazim Sulejmani",
+        "phone": "+38978324244"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4378942,
+          42.0131776
+        ]
+      },
+      "id": "node/5062450021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5110720231",
+        "amenity": "cafe",
+        "int_name": "Shisha",
+        "location": "Old Bazaar",
+        "name": "Shisha",
+        "name:en": "Shisha",
+        "name:sq": "Shisha",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4375923,
+          42.0011325
+        ]
+      },
+      "id": "node/5110720231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5124642221",
+        "amenity": "cafe",
+        "name": "Били Кафе",
+        "name:en": "Bili Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9798693,
+          42.0087006
+        ]
+      },
+      "id": "node/5124642221"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5176248987",
+        "amenity": "cafe",
+        "name": "Изи",
+        "name:en": "Izzi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4192046,
+          41.9927714
+        ]
+      },
+      "id": "node/5176248987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5284221296",
+        "amenity": "cafe",
+        "name": "Laika"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4216953,
+          42.0013652
+        ]
+      },
+      "id": "node/5284221296"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5288522422",
+        "amenity": "cafe",
+        "int_name": "New Age",
+        "name": "Еу ејџ",
+        "name:mk": "Њу ејџ"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4230134,
+          41.9958526
+        ]
+      },
+      "id": "node/5288522422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5292130834",
+        "amenity": "cafe",
+        "name": "63"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4444199,
+          41.9768128
+        ]
+      },
+      "id": "node/5292130834"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5333583388",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "name": "Giovani",
+        "name:en": "Giovani",
+        "name:mk": "Џовани"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3991821,
+          42.0034483
+        ]
+      },
+      "id": "node/5333583388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346935627",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.40994,
+          42.0047408
+        ]
+      },
+      "id": "node/5346935627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5407742721",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "BU Coffee to go"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6382644,
+          41.4372542
+        ]
+      },
+      "id": "node/5407742721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5534803022",
+        "addr:postcode": "1000",
+        "amenity": "cafe",
+        "name": "Кахава",
+        "name:en": "Cahawa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4218407,
+          42.0023198
+        ]
+      },
+      "id": "node/5534803022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5570347724",
+        "amenity": "cafe",
+        "name": "Kafe Bar “Bonton”",
+        "name:en": "Coffee Bar “Bonton”"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8909814,
+          41.8649667
+        ]
+      },
+      "id": "node/5570347724"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5599976521",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7698618,
+          40.9158924
+        ]
+      },
+      "id": "node/5599976521"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5604182920",
+        "addr:city": "Cкoпje",
+        "addr:housenumber": "14",
+        "addr:postcode": "1000",
+        "addr:street": "Булевар Партизански Одреди",
+        "amenity": "cafe",
+        "name": "Mikel",
+        "name:en": "Vinyl",
+        "website": "https://www.facebook.com/vinylmk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4253762,
+          41.9986406
+        ]
+      },
+      "id": "node/5604182920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5604366922",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7914964,
+          41.11464
+        ]
+      },
+      "id": "node/5604366922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5618221222",
+        "amenity": "cafe",
+        "name": "Conept Cafe",
+        "name:en": "Concept Cafe",
+        "name:mk": "Concept Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6383287,
+          41.4403734
+        ]
+      },
+      "id": "node/5618221222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5622210754",
+        "amenity": "cafe",
+        "name": "Централ Парк"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4181784,
+          42.0087916
+        ]
+      },
+      "id": "node/5622210754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5672631206",
+        "amenity": "cafe",
+        "name": "Rafaela"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7279322,
+          42.132763
+        ]
+      },
+      "id": "node/5672631206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5690140438",
+        "amenity": "cafe",
+        "name": "DejaVu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4264143,
+          41.9922468
+        ]
+      },
+      "id": "node/5690140438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5690140660",
+        "amenity": "cafe",
+        "name": "Istanbul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4266738,
+          41.9922273
+        ]
+      },
+      "id": "node/5690140660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5713714222",
+        "amenity": "cafe",
+        "dog": "yes",
+        "name": "AvAv Dog Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3885778,
+          42.0229571
+        ]
+      },
+      "id": "node/5713714222"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5755445995",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Summer Gallery House Pub",
+        "opening_hours": "08:00-01:00",
+        "phone": "+38970208693",
+        "toilets:access": "customers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.553795,
+          41.3460965
+        ]
+      },
+      "id": "node/5755445995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5772884451",
+        "amenity": "cafe",
+        "name": "Relax"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7128683,
+          42.1331153
+        ]
+      },
+      "id": "node/5772884451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5772884452",
+        "amenity": "cafe",
+        "name": "Donita"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.712736,
+          42.1333648
+        ]
+      },
+      "id": "node/5772884452"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5775030453",
+        "amenity": "cafe",
+        "name:en": "O La La"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4414844,
+          41.9931868
+        ]
+      },
+      "id": "node/5775030453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5776561353",
+        "amenity": "cafe",
+        "name:en": "Coffee House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5539772,
+          41.3458302
+        ]
+      },
+      "id": "node/5776561353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5790395954",
+        "amenity": "cafe",
+        "name": "Kvadrat",
+        "name:en": "Kvadrar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9632819,
+          41.5129092
+        ]
+      },
+      "id": "node/5790395954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5790395956",
+        "amenity": "cafe",
+        "name": "Alfa1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5548027,
+          41.3462162
+        ]
+      },
+      "id": "node/5790395956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5836414523",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8118811,
+          41.1246206
+        ]
+      },
+      "id": "node/5836414523"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5841696956",
+        "amenity": "cafe",
+        "outdoor_seating": "yes",
+        "smoking": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3943158,
+          41.9651051
+        ]
+      },
+      "id": "node/5841696956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5841843563",
+        "amenity": "cafe",
+        "name": "Fresh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2954889,
+          41.9584413
+        ]
+      },
+      "id": "node/5841843563"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5859233985",
+        "addr:postcode": "255",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;balkan;ice_cream;irish;regional;tea;turkish",
+        "internet_access": "wlan",
+        "name": "Kandi",
+        "name:en": "Kandy",
+        "opening_hours": "Mo-Su 07:15-00:00",
+        "operator": "Mensur&Hasan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4341981,
+          42.0128215
+        ]
+      },
+      "id": "node/5859233985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5863818383",
+        "addr:city": "Tetovo",
+        "addr:housenumber": "39",
+        "addr:postcode": "1220",
+        "addr:street": "ул. Дервиш Цара  (ЈНА)",
+        "amenity": "cafe",
+        "bar": "yes",
+        "cuisine": "burger;coffee_shop;fast_food;juice;cocktails;hookah",
+        "internet_access": "wlan",
+        "internet_access:ssid": "Irish Pub",
+        "name": "Irish Pub",
+        "opening_hours": "Mo-Su 09:00-01:00",
+        "outdoor_seating": "yes",
+        "smoking": "yes",
+        "website": "https://instagram.com/irishpubofficial"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9714342,
+          42.0075662
+        ]
+      },
+      "id": "node/5863818383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5865538987",
+        "amenity": "cafe",
+        "name": "Кафеин",
+        "name:en": "Kafein"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.55497,
+          41.346541
+        ]
+      },
+      "id": "node/5865538987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5887799285",
+        "amenity": "cafe",
+        "name": "Romanse",
+        "name:mk": "Romansa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9600276,
+          41.5129834
+        ]
+      },
+      "id": "node/5887799285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5890717252",
+        "amenity": "cafe",
+        "name": "Liquid",
+        "name:mk": "Ликвид"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8071883,
+          41.1073742
+        ]
+      },
+      "id": "node/5890717252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5898763585",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "Inn cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5294069,
+          41.5189346
+        ]
+      },
+      "id": "node/5898763585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5956378986",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5918028,
+          41.2398677
+        ]
+      },
+      "id": "node/5956378986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5956379186",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5926742,
+          41.2404691
+        ]
+      },
+      "id": "node/5956379186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5956379187",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.5928624,
+          41.2404605
+        ]
+      },
+      "id": "node/5956379187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5958915386",
+        "amenity": "cafe",
+        "cuisine": "tea;cake;coffee_shop;ice_cream",
+        "name:en": "Amaro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.090258,
+          41.4843216
+        ]
+      },
+      "id": "node/5958915386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5999496386",
+        "amenity": "cafe",
+        "name": "Julia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7173139,
+          42.1325071
+        ]
+      },
+      "id": "node/5999496386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5999496486",
+        "addr:street": "11-ти Ноември",
+        "amenity": "cafe",
+        "name": "Mocha Caffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.6999903,
+          42.1395687
+        ]
+      },
+      "id": "node/5999496486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6018277285",
+        "amenity": "cafe",
+        "name:en": "7 Grama Espresso Studio"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4242861,
+          41.9987593
+        ]
+      },
+      "id": "node/6018277285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6018277485",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Squeeze Me",
+        "name:en": "Squeeze Me",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4284228,
+          41.9971825
+        ]
+      },
+      "id": "node/6018277485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6032865285",
+        "amenity": "cafe",
+        "cuisine": "crepe;coffee_shop;cake;ice_cream",
+        "location": "Old Bazaar",
+        "name": "k8",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4361778,
+          42.0002555
+        ]
+      },
+      "id": "node/6032865285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6043902185",
+        "amenity": "cafe",
+        "name": "اخر نقطة تاع تران"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7241653,
+          42.1381918
+        ]
+      },
+      "id": "node/6043902185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054020294",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4186412,
+          41.9946427
+        ]
+      },
+      "id": "node/6054020294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054032912",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Manda Coffee Bar",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.428439,
+          41.9970171
+        ]
+      },
+      "id": "node/6054032912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054035625",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.427602,
+          41.9938495
+        ]
+      },
+      "id": "node/6054035625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054036211",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.417224,
+          41.9992004
+        ]
+      },
+      "id": "node/6054036211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054036212",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4172361,
+          41.9990907
+        ]
+      },
+      "id": "node/6054036212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054048492",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4233514,
+          41.9970085
+        ]
+      },
+      "id": "node/6054048492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054048500",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3056706,
+          41.9797275
+        ]
+      },
+      "id": "node/6054048500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054048501",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3278644,
+          41.9996839
+        ]
+      },
+      "id": "node/6054048501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054048726",
+        "amenity": "cafe",
+        "name": "Paladin M"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4158769,
+          42.0003534
+        ]
+      },
+      "id": "node/6054048726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054048730",
+        "amenity": "cafe",
+        "name": "Woodstock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4113199,
+          41.9956401
+        ]
+      },
+      "id": "node/6054048730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054049813",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4173314,
+          41.9947238
+        ]
+      },
+      "id": "node/6054049813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6054050095",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4244255,
+          41.9980418
+        ]
+      },
+      "id": "node/6054050095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6089711779",
+        "amenity": "cafe",
+        "name": "Led Zeppelin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3970638,
+          42.0038026
+        ]
+      },
+      "id": "node/6089711779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6145381755",
+        "amenity": "cafe",
+        "name": "Sugarland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3994796,
+          42.0030494
+        ]
+      },
+      "id": "node/6145381755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6148371886",
+        "addr:street": "cegran",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "Kafiteria TETI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9723139,
+          41.8366298
+        ]
+      },
+      "id": "node/6148371886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6149826387",
+        "addr:housenumber": "165",
+        "addr:postcode": "2400",
+        "addr:street": "Младинска",
+        "amenity": "cafe",
+        "email": "coffeetogostory@gmail.com",
+        "internet_access": "wlan",
+        "name": "Кафе за носење - Стори",
+        "name:en": "Coffee To Go \" STORY \"",
+        "opening_hours": "Mo-Su 08:00-00:00",
+        "phone": "0038975313833"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.6481556,
+          41.4327076
+        ]
+      },
+      "id": "node/6149826387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6228007184",
+        "amenity": "cafe",
+        "name": "Krem"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.393778,
+          42.004566
+        ]
+      },
+      "id": "node/6228007184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6307066053",
+        "addr:city": "Cкoпje",
+        "addr:housenumber": "93",
+        "addr:postcode": "1000",
+        "addr:street": "Орце Николов",
+        "amenity": "cafe",
+        "name": "fourplay"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.423008,
+          42.0012294
+        ]
+      },
+      "id": "node/6307066053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6323363585",
+        "addr:postcode": "2300",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Кафе станица",
+        "name:en": "Coffee Station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4123703,
+          41.9157236
+        ]
+      },
+      "id": "node/6323363585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6348113849",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1935924,
+          41.7384195
+        ]
+      },
+      "id": "node/6348113849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6348172157",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1991187,
+          41.73743
+        ]
+      },
+      "id": "node/6348172157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6348292352",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1905697,
+          41.744575
+        ]
+      },
+      "id": "node/6348292352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6349228910",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1762339,
+          41.7531208
+        ]
+      },
+      "id": "node/6349228910"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6357926785",
+        "addr:postcode": "1230",
+        "amenity": "cafe",
+        "name": "Кафе Клуб 97",
+        "name:en": "Cafe Club 97",
+        "name:tr": "Kafe Kulüp 97"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9059889,
+          41.7926372
+        ]
+      },
+      "id": "node/6357926785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6374712571",
+        "addr:city": "Cкoпje",
+        "addr:housenumber": "9A",
+        "addr:postcode": "1000",
+        "addr:street": "Никола Тесла",
+        "amenity": "cafe",
+        "cuisine": "sandwich;coffee_shop;bakery;ice_cream",
+        "name": "Joy Café & Bakery (Karposh)",
+        "outdoor_seating": "yes",
+        "phone": "+389 2 307 6955",
+        "website": "https://www.facebook.com/joycafeandbakery/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4109206,
+          42.0055109
+        ]
+      },
+      "id": "node/6374712571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6451451785",
+        "amenity": "cafe",
+        "name": "Coffee O'Clock"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4260361,
+          41.9907255
+        ]
+      },
+      "id": "node/6451451785"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6532695790",
+        "addr:housenumber": "47",
+        "addr:street": "Штипска",
+        "amenity": "cafe",
+        "name": "Saccaria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9615869,
+          42.0065846
+        ]
+      },
+      "id": "node/6532695790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6553424136",
+        "amenity": "cafe",
+        "name": "Queen Maria",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2338614,
+          41.4143541
+        ]
+      },
+      "id": "node/6553424136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6577887485",
+        "addr:street": "Булевар Климент Охридски",
+        "amenity": "cafe",
+        "cuisine": "burger;sandwich;cake;coffee_shop",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Веган365Кујна",
+        "name:en": "Vegan365Kitchen",
+        "name:ru": "Веган365Кухня",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "phone": "+389 75 585 255",
+        "website": "https://vegan365kitchen.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4263142,
+          41.9992458
+        ]
+      },
+      "id": "node/6577887485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6581571196",
+        "amenity": "cafe",
+        "name": "Liquid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7963625,
+          41.1117759
+        ]
+      },
+      "id": "node/6581571196"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6658556783",
+        "amenity": "cafe",
+        "name": "Amsterdam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5548403,
+          41.3462335
+        ]
+      },
+      "id": "node/6658556783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6680280012",
+        "addr:city": "Cкoпje",
+        "addr:housename": "Boomerang Shisha",
+        "addr:housenumber": "18",
+        "addr:street": "Казанџиска",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "location": "Old Bazaar",
+        "name": "Boomerang Shisha",
+        "opening_hours": "24/7",
+        "outdoor_seating": "yes",
+        "wifi": "free"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4368049,
+          41.9994044
+        ]
+      },
+      "id": "node/6680280012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6777937586",
+        "amenity": "cafe",
+        "name": "Çaytore Istanbul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7986778,
+          41.1167343
+        ]
+      },
+      "id": "node/6777937586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6781168986",
+        "amenity": "cafe",
+        "name": "Аеро"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3368237,
+          41.0248238
+        ]
+      },
+      "id": "node/6781168986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6785159634",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0969002,
+          41.4941379
+        ]
+      },
+      "id": "node/6785159634"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6802029812",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;sandwich;cake",
+        "location": "Center",
+        "name": "Home Brews",
+        "opening_hours": "Mo-Su 09:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4297354,
+          41.9973064
+        ]
+      },
+      "id": "node/6802029812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814231792",
+        "amenity": "cafe",
+        "location": "Old Bazaar",
+        "name": "Urban",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4370091,
+          41.9999671
+        ]
+      },
+      "id": "node/6814231792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814246690",
+        "amenity": "cafe",
+        "location": "Old Bazaar",
+        "name": "Coffe Tearoom Lachi",
+        "opening_hours": "Mo-Sa 08:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4364615,
+          42.0003942
+        ]
+      },
+      "id": "node/6814246690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6814246723",
+        "amenity": "cafe",
+        "location": "Old Bazaar",
+        "name": "Bomonti",
+        "opening_hours": "Mo-Su 10:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4373153,
+          41.999797
+        ]
+      },
+      "id": "node/6814246723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815434688",
+        "amenity": "cafe",
+        "name": "Toto",
+        "name:en": "Toto Daily Bistro",
+        "opening_hours": "Mo-Sa 08:00-01:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4225095,
+          41.9967222
+        ]
+      },
+      "id": "node/6815434688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815559888",
+        "addr:city": "Cкoпje",
+        "addr:housenumber": "23",
+        "addr:postcode": "1000",
+        "addr:street": "Булевар Партизански Одреди",
+        "amenity": "cafe",
+        "name": "Shakespeare Cafe",
+        "name:mk": "Шекспир Кафе",
+        "opening_hours": "Mo-Su 08:00-00:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4234973,
+          41.9981835
+        ]
+      },
+      "id": "node/6815559888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815925985",
+        "amenity": "cafe",
+        "name": "Juicy&co"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4223059,
+          41.9974479
+        ]
+      },
+      "id": "node/6815925985"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815931287",
+        "amenity": "cafe",
+        "cuisine": "cake;ice_cream;coffee_shop",
+        "name": "Зафир"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4192379,
+          42.0005998
+        ]
+      },
+      "id": "node/6815931287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6815931391",
+        "amenity": "cafe",
+        "name": "Majahh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4222629,
+          42.0023667
+        ]
+      },
+      "id": "node/6815931391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6821158386",
+        "amenity": "cafe",
+        "location": "Old Bazaar",
+        "name": "Kairo",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4385935,
+          42.0030613
+        ]
+      },
+      "id": "node/6821158386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6821158388",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Stay you",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4304151,
+          41.9940274
+        ]
+      },
+      "id": "node/6821158388"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6821158389",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "JJ&S",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4300488,
+          41.9924937
+        ]
+      },
+      "id": "node/6821158389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6821158686",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Mulliri",
+        "opening_hours": "Mo-Su 11:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.434633,
+          41.9976507
+        ]
+      },
+      "id": "node/6821158686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6821158695",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "MIG",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.430389,
+          41.9939851
+        ]
+      },
+      "id": "node/6821158695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6827032732",
+        "amenity": "cafe",
+        "location": "Old Bazaar",
+        "name": "Gallery 7",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.438158,
+          42.0009497
+        ]
+      },
+      "id": "node/6827032732"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6827072094",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4406076,
+          42.0027924
+        ]
+      },
+      "id": "node/6827072094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6827074010",
+        "amenity": "cafe",
+        "name": "Sultan Kejf"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4402065,
+          42.0027827
+        ]
+      },
+      "id": "node/6827074010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6831648812",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8006165,
+          41.1146792
+        ]
+      },
+      "id": "node/6831648812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6831648815",
+        "amenity": "cafe",
+        "name": "Fabrique"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8043172,
+          41.113395
+        ]
+      },
+      "id": "node/6831648815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6833101187",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8003342,
+          41.1140454
+        ]
+      },
+      "id": "node/6833101187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6833103493",
+        "amenity": "cafe",
+        "name": "Una caffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7998314,
+          41.1163114
+        ]
+      },
+      "id": "node/6833103493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6837039792",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.798083,
+          41.1168925
+        ]
+      },
+      "id": "node/6837039792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6837039793",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.7981895,
+          41.116949
+        ]
+      },
+      "id": "node/6837039793"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6879115187",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "Drip Coffee (Specialty Coffee)",
+        "opening_hours": "Mo-Fr 07:30-18:00; Sa 09:00-15:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4147527,
+          41.9906887
+        ]
+      },
+      "id": "node/6879115187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6967285685",
+        "addr:housenumber": "17",
+        "addr:street": "Булевар Партизански Одреди",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name:en": "Short bus",
+        "opening_hours": "Mo-Th 09:00-00:00; Fr-Sa 09:00-01:00; Su 17:00-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4246771,
+          41.9979406
+        ]
+      },
+      "id": "node/6967285685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7068083385",
+        "addr:street": "JNA",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Ирфан Кафе",
+        "name:en": "Cafe Irfan",
+        "name:tr": "İrfan Kahvesi",
+        "opening_hours": "Mo-Su 05:00-00:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8986224,
+          41.7950145
+        ]
+      },
+      "id": "node/7068083385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7119714585",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Рузвелт",
+        "name:en": "Roosvelt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.413452,
+          42.0019011
+        ]
+      },
+      "id": "node/7119714585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7121648912",
+        "addr:city": "Стар Дојран",
+        "addr:postcode": "1487",
+        "addr:street": "Кај 5 ти Ноември",
+        "amenity": "cafe",
+        "cuisine": "sandwich",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Реформ",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7223932,
+          41.1874158
+        ]
+      },
+      "id": "node/7121648912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7139002050",
+        "amenity": "cafe",
+        "name": "Дени Интернационал"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.543324,
+          41.9941669
+        ]
+      },
+      "id": "node/7139002050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7373066578",
+        "amenity": "cafe",
+        "name": "Timeout"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2005392,
+          41.7497668
+        ]
+      },
+      "id": "node/7373066578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7677567993",
+        "amenity": "cafe",
+        "name": "Фреш"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4983581,
+          41.2884762
+        ]
+      },
+      "id": "node/7677567993"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7714773224",
+        "amenity": "cafe",
+        "name": "Cafe City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9544522,
+          41.5079104
+        ]
+      },
+      "id": "node/7714773224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7714773229",
+        "amenity": "cafe",
+        "name": "Harely Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.959545,
+          41.5093546
+        ]
+      },
+      "id": "node/7714773229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7714773230",
+        "amenity": "cafe",
+        "name": "Checkin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.96099,
+          41.5095992
+        ]
+      },
+      "id": "node/7714773230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7806889866",
+        "addr:city": "Tetovo",
+        "addr:housenumber": "133",
+        "addr:postcode": "1200",
+        "addr:street": "ул. Маршал Тито",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "Playcademy",
+        "name": "Playcademy",
+        "opening_hours": "Mo-Su 08:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.974125,
+          42.0079719
+        ]
+      },
+      "id": "node/7806889866"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7836016447",
+        "amenity": "cafe",
+        "name": "Plaza Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9403876,
+          41.8644909
+        ]
+      },
+      "id": "node/7836016447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7836016448",
+        "amenity": "cafe",
+        "name": "Fenix Caffe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9405999,
+          41.8644634
+        ]
+      },
+      "id": "node/7836016448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7841139205",
+        "amenity": "cafe",
+        "name": "Plan B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.9382664,
+          41.8651235
+        ]
+      },
+      "id": "node/7841139205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8016032986",
+        "amenity": "cafe",
+        "name": "LIFE coffee",
+        "name:en": "Life coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7183287,
+          42.1361939
+        ]
+      },
+      "id": "node/8016032986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8038054269",
+        "addr:city": "Куманово",
+        "addr:housenumber": "108",
+        "addr:postcode": "1300",
+        "addr:street": "Народна Револуција",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Park Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7185297,
+          42.1298965
+        ]
+      },
+      "id": "node/8038054269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8043798050",
+        "addr:city": "Прилеп",
+        "addr:housenumber": "2/6",
+        "addr:postcode": "7500",
+        "addr:street": "Цар Самоил",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;ice_cream;dessert",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Хиве Кафе",
+        "name:en": "Hive Cafe",
+        "opening_hours": "Mo-Sa 08:00-00:00",
+        "opening_hours:covid19": "same",
+        "outdoor_seating": "yes",
+        "phone": "+38975545010",
+        "website": "https://www.facebook.com/Hive-Caf%C3%A9-106410158201791"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5555893,
+          41.3330606
+        ]
+      },
+      "id": "node/8043798050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8121684194",
+        "amenity": "cafe",
+        "location": "Center",
+        "name": "Cafe Barcelona",
+        "opening_hours": "Mo-Sa 08:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4297974,
+          41.9932519
+        ]
+      },
+      "id": "node/8121684194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8140186253",
+        "amenity": "cafe",
+        "name": "Меџик",
+        "name:en": "Magic"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4105172,
+          41.9174546
+        ]
+      },
+      "id": "node/8140186253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8140186254",
+        "amenity": "cafe",
+        "name": "Либеро",
+        "name:en": "Libero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.41051,
+          41.9176467
+        ]
+      },
+      "id": "node/8140186254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8140186255",
+        "amenity": "cafe",
+        "name": "Сити Ин",
+        "name:en": "City In"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.4097224,
+          41.9182427
+        ]
+      },
+      "id": "node/8140186255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8188528781",
+        "amenity": "cafe",
+        "cuisine": "bakery;sandwiches;coffee_shop",
+        "name": "Joy Café & Bakery (Centar)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.430208,
+          41.9929511
+        ]
+      },
+      "id": "node/8188528781"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8496716622",
+        "amenity": "cafe",
+        "name": "Burektore Bleta - ES"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2703581,
+          41.9843164
+        ]
+      },
+      "id": "node/8496716622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8837791824",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5546033,
+          41.346147
+        ]
+      },
+      "id": "node/8837791824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8867388917",
+        "amenity": "cafe",
+        "name": "Конак",
+        "name:en": "Konak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.8393878,
+          41.7320073
+        ]
+      },
+      "id": "node/8867388917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8898613842",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9858556,
+          42.0078705
+        ]
+      },
+      "id": "node/8898613842"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8914478117",
+        "amenity": "cafe",
+        "name:en": "Central Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5614881,
+          41.3182388
+        ]
+      },
+      "id": "node/8914478117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8914478118",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5609678,
+          41.3180505
+        ]
+      },
+      "id": "node/8914478118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8914478318",
+        "amenity": "cafe",
+        "name:en": "Café Portioli"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.5611301,
+          41.3182539
+        ]
+      },
+      "id": "node/8914478318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8914478617",
+        "amenity": "cafe",
+        "name:en": "District"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.0193061,
+          41.4346436
+        ]
+      },
+      "id": "node/8914478617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8917369148",
+        "amenity": "cafe",
+        "name": "Coffee shop",
+        "opening_hours": "Mo-Sa 09:00-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.3332703,
+          41.0311459
+        ]
+      },
+      "id": "node/8917369148"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9025096216",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2489932,
+          41.3687312
+        ]
+      },
+      "id": "node/9025096216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9163117743",
+        "addr:city": "Cкoпje",
+        "addr:housenumber": "2",
+        "addr:postcode": "1000",
+        "addr:street": "Њуделхиска",
+        "amenity": "cafe",
+        "name": "Plato Coffee 2.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.405925,
+          41.998628
+        ]
+      },
+      "id": "node/9163117743"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9178548996",
+        "amenity": "cafe",
+        "name": "Caffe Sadiku"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4118885,
+          41.5311071
+        ]
+      },
+      "id": "node/9178548996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9200216438",
+        "amenity": "cafe",
+        "name": "Lafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4245361,
+          41.9949215
+        ]
+      },
+      "id": "node/9200216438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9200216442",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4326376,
+          41.9899157
+        ]
+      },
+      "id": "node/9200216442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9200216443",
+        "amenity": "cafe",
+        "name": "Coffee corner"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.4355656,
+          42.0010222
+        ]
+      },
+      "id": "node/9200216443"
+    }
+  ]
+}
