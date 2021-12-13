@@ -1,4 +1,4 @@
-# app3
+# Local Coffee Finder
 
 ## Project setup
 ```
