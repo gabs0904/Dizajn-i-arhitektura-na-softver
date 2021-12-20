@@ -11,7 +11,7 @@
         <router-link to="/how" id="howItWorks">How It Works</router-link>
 
       </div>
-      <router-link to="/home2" id="herobutton">Locate Coffee </router-link>
+      <router-link to="/login" id="herobutton">Locate Coffee </router-link>
 
     </div>
 
@@ -19,7 +19,7 @@
       <div id="heroContent">
         <h1>Local coffee shop finder</h1>
         <p>Discover new places with the most flavored coffee in your area.</p>
-        <button onclick="location.href='Home2.html';"><p>Locate Coffee</p></button>
+          <router-link to="/login" id="herobutton">Locate Coffee </router-link>
       </div>
     </div>
     <div id="batkatailustracija">
