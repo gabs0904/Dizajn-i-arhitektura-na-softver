@@ -122,7 +122,7 @@ export default {
         emptyFields: false
     },methods: {
         doLogin() {
-            if (this.emailLogin === "admin.admin@admin.com" || this.passwordLogin === "password") {
+            if (this.emailLogin === "admin.admin@admin.com" && this.passwordLogin === "password") {
                 alert("You are now logged in");
             }else{
                 alert("The e-mail and password are not recognized");
