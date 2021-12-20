@@ -123,7 +123,7 @@ export default {
     },methods: {
         doLogin() {
             if (this.emailLogin === "admin.admin@admin.com" && this.passwordLogin === "password") {
-                alert("You are now logged in");
+                this.$router.push('/home2');
             }else{
                 alert("The e-mail and password are not recognized");
             }
