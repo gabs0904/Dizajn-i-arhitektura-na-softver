@@ -1,14 +1,14 @@
 <template style="background: gray;">
   <div class="home2">
 
-    <img style="position: absolute; width: 150px; left:60px;" src="/images/thumbnail.png">
-    <img src="/images/Subtract.png" style="position: absolute;">
+    <img id="logo" style="position: absolute; width: 150px; left:60px;" src="/images/thumbnail.png">
+    <img id="subtract" src="/images/Subtract.png" style="position: absolute;">
 
     <!--<p id="home">Home</p>
     <p id="map">Map</p>-->
 
     <a  href="Home2.html" id="homeicon" style="position: absolute">
-        <img src="/images/home.png"></a>
+        <img id="home" src="/images/home.png"></a>
     <router-link to="/map" id="map"  ><img src="/images/map.png"></router-link>
 
 
