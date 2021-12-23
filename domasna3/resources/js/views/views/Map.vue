@@ -1,6 +1,6 @@
 <template>
   <div id="mappage">
-    <img style="position: absolute; width: 150px; left:60px;" src="/images/thumbnail.png">
+    <img id="logo" style="position: absolute; width: 150px; left:60px;" src="/images/thumbnail.png">
     <svg style="position: absolute;top:80px;" width="346" height="260" viewBox="0 0 346 260" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g filter="url(#filter0_d_357_122)">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.00002 69.7051C4.00002 69.376 4.0057 69.0481 4.01697 68.7217C4.55409 84.8185 17.7724 97.7029 34 97.7029H250.279C266.848 97.7029 280.279 84.2715 280.279 67.703V44C290.213 48.3008 297.163 58.1914 297.163 69.7051C297.163 85.1679 284.628 97.703 269.165 97.703H31.9978C16.535 97.703 4.00002 85.1679 4.00002 69.7051ZM4 181.697C4 166.234 16.535 153.699 31.9978 153.699H33.865C17.699 153.77 4.55233 166.628 4.01696 182.68C4.00568 182.354 4 182.026 4 181.697ZM280.279 207.402C290.213 203.101 297.163 193.21 297.163 181.697C297.163 166.234 284.628 153.699 269.165 153.699H250.414C266.921 153.772 280.279 167.175 280.279 183.699V207.402ZM250.398 153.699H269.165C284.628 153.699 297.163 141.164 297.163 125.701C297.163 110.238 284.628 97.7031 269.165 97.7031H61.1606C45.6978 97.7031 33.1628 110.238 33.1628 125.701C33.1628 141.126 45.636 153.637 61.0462 153.698H250.279C250.319 153.698 250.358 153.699 250.398 153.699Z" fill="white"/>
@@ -26,7 +26,7 @@
     </div>
     <div  id="box" >
       <div>
-        <p style="position: absolute; top:150px; left:40px;font-family: Jua;font-style: normal;
+        <p id="search_results" style="position: absolute; top:150px; left:40px;font-family: Jua;font-style: normal;
 font-weight: normal;
 font-size: 26px;
 line-height: 32px;">Search results:</p>
@@ -55,63 +55,195 @@ line-height: 32px;">Search results:</p>
   </div>
 </template>
 <style>
-#illustrationgirl{
-  width: 170px;
-  margin-top:290px;
-  margin-left: 20px;
-}
-svg{
-  position: absolute;
+body{
+    background: rgba(162, 161, 160, 0.3);
 }
 #box{
-  position: absolute;
-  width: 1090px;
-  height: 630px;
-  margin-left: 250px;
-  background: #FFFFFF;
-  border-radius: 48px;
+    position: absolute;
+    width: 1090px;
+    height: 630px;
+    margin-left: 250px;
+    background: #FFFFFF;
+    border-radius: 48px;
+}
+#illustrationgirl{
+    width: 170px;
+    margin-top:290px;
+    margin-left: 20px;
+}
+svg{
+    position: absolute;
+}
+#box{
+    position: absolute;
+    width: 1090px;
+    height: 630px;
+    margin-left: 250px;
+    background: #FFFFFF;
+    border-radius: 48px;
 }
 #homeicon{
-  position: absolute;
-  width: 102px;
-  height: 27px;
-  left: 65px;
-  top: 127px;
-  z-index: 9999;
+    position: absolute;
+    width: 102px;
+    height: 27px;
+    left: 65px;
+    top: 127px;
+    z-index: 9999;
 }
 #map{
-  position: absolute;
-  width: 89px;
-  height: 27px;
-  left: 65px;
-  top: 190px;
+    position: absolute;
+    width: 89px;
+    height: 27px;
+    left: 65px;
+    top: 190px;
 }
 
 #osmmap{
-  position: absolute;
-  top:160px;
-  left:640px;
+    position: absolute;
+    top:160px;
+    left:640px;
 }
 .searchbar{
-  position: absolute;
-  top:50px;
-  left:100px;
+    position: absolute;
+    top:50px;
+    left:100px;
 }
 .searchbar input{
-  left:20px;
-  width:500px;
-  height: 30px;
-  background: #FEFBF1;
-  border-radius: 40px;
-  border-color: #edb471;
+    left:20px;
+    width:500px;
+    height: 30px;
+    background: #FEFBF1;
+    border-radius: 40px;
+    border-color: #edb471;
 
 }
 #someform{
-  background: white;
-  position: absolute;
-  border-radius: 40px;
-  top:160px;
-  color:white;
+    background: white;
+    position: absolute;
+    border-radius: 40px;
+    top:160px;
+    color:white;
+}
+#search_results{
+    position: absolute;
+    top:150px;
+    left:40px;
+    font-family: Jua;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+@media screen and (max-width: 1150px){
+    body{
+        width: 70%;
+        background: rgba(162, 161, 160, 0.3);
+    }
+    #box{
+        width: 800px;
+        height: 600px;
+        align-content: center;
+        left: -40px;
+
+    }
+    iframe{
+        width: 390px;
+        height: 210px;
+    }
+    #osmmap{
+        left:530px;
+    }
+    #illustrationgirl{
+        width: 150px;
+        height: 320px;
+        top:10px;
+    }
+    #search_results{
+        left:80px;
+        font-size: 28px;
+
+    }
+}
+@media screen and (max-width : 850px){
+    body {
+        background: rgba(162, 161, 160, 0.3);
+        width: 50%;
+    }
+    #box{
+        width: 600px;
+        height: 590px;
+        align-content: center;
+    }
+    #illustrationgirl{
+        width: 110px;
+        height: 310px;
+        top:20px;
+        left: 40px;
+    }
+    iframe{
+        width: 440px;
+        height: 210px;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+    #osmmap{
+        left:480px;
+    }
+    #search_results{
+        font-size: 26px;
+        top:120px;
+    }
+    .searchbar{
+        left:40px;
+    }
+}
+@media screen and (max-width: 600px){
+
+    body{
+        background: rgba(162, 161, 160, 0.3);
+        width: 40%;
+    }
+    #box{
+        width: 450px;
+        height: 600px;
+        margin-left: 150px;
+    }
+    iframe{
+        width: 370px;
+    }
+    #homeicon{
+        margin-left: -60px;
+    }
+    #map{
+        margin-left: -60px;
+    }
+    #logo{
+        margin-left: -60px;
+    }
+    #links{
+        margin-left: -60px;
+    }
+    #illustrationgirl{
+        margin-left: -20px;
+        width: 90px;
+    }
+    .searchbar input{
+        left:20px;
+        width: 350px;
+    }
+    #search_results{
+        top:120px;
+        left:40px;
+        font-size: 24px;
+
+    }
+    #osmmap{
+        top:300px;
+        left:150px;
+    }
 }
 </style>
 <script>
