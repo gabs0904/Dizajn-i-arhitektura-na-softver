@@ -137,6 +137,22 @@ export default {
 
             return d;
         },
+        drawpolyline(lat,lon){
+            var pointA = new L.LatLng(41.9972, 21.4331);
+            var pointB = new L.LatLng(lat, lon);
+            var pointList = [pointA, pointB];
+
+            var polyline=L.polyline.antPath(pointList,{
+                color: 'red',
+                opacity: 0.8,
+                dashArray: '20, 20', dashOffset: '0',
+                smoothFactor: 1
+            }).addTo(this.map);
+            this.map.fitBounds(polyline.getBounds());
+            new L.marker([lat,lon]).addTo(this.map);
+            
+        },
+
 
     };
 
