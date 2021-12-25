@@ -644,16 +644,24 @@ export default {
             var meters=0;
             let placeFound = this.locations.find(m => m.Name.includes(searchstring));
             if(placeFound){
-                $("#results").append("You are "+meters+"m \n" +
+                meters=this.CalcDistanceBetween(41.9972, 21.4331,placeFound.Latitude, placeFound.Longitude);
+                $("#results").empty().append("You are "+meters+"m \n" +
                     "away from your\n" +
                     "desired destination");
                 document.getElementById("searchbox").value = "";
+                document.getElementById("results").value = "";
+
+
             }else{
-                $("#results").append("not in the database");
+                $("#results").empty().append("not in the database");
                 document.getElementById("searchbox").value = "";
 
+
             }
+
         }
+
+
     },
 
     mounted() {
