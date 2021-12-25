@@ -77,6 +77,16 @@ export default {
   destroyed: function () {
     document.body.style.backgroundColor = null;
   },
+    methods: {
+        addCounter(count) {
+            $("#generatenumber").append(count);
+
+        },
+        addMeters() {
+            var distance = this.findClosestMarker();
+            $("#cafemetertext").append(distance + " m away");
+        },
+    }
 };
 
 </script>
