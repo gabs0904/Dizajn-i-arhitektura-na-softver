@@ -10,7 +10,7 @@
         <router-link to="/how" id="howItWorks">How It Works</router-link>
 
       </div>
-      <button onclick="location.href='Home2.html';"><p>Locate Coffee</p></button>
+        <router-link to="/login" id="herobutton">Locate Coffee </router-link>
     </div>
     <p id="meet">Meet the team</p>
     <div class="girls">

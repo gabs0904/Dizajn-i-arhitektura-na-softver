@@ -25,7 +25,7 @@
       </p>
     </div>
     <div id="cafemeter">
-      <p>Nearest cafe</p>
+      <p style="top:7px;">Nearest cafe</p>
 
      <img src="/images/coffee.png">
     </div>
@@ -670,166 +670,162 @@ mounted() {
 <style>
 
 #illustrationgirl{
-  width: 170px;
-  margin-top:290px;
-  margin-left: 20px;
+    width: 170px;
+    margin-top:300px;
+    margin-left: 20px;
 }
 #illustrationgirl,#svg1,#line{
-  position: absolute;
+    position: absolute;
 }
 #box{
-  position: absolute;
-  width: 1090px;
-  height: 630px;
-  margin-left: 250px;
-  background: #FFFFFF;
-  border-radius: 48px;
+    position: absolute;
+    width: 1090px;
+    height: 630px;
+    margin-top: 15px;
+    margin-left: 250px;
+    background: #FFFFFF;
+    border-radius: 48px;
 }
 #location{
-  position: absolute;
-  width: 25px;
-  height: 37.43px;
-  left: 123px;
-  top: 97px;
+    position: absolute;
+    width: 25px;
+    height: 37.43px;
+    left: 123px;
+    top: 75px;
 }
 #homeicon{
-  position: absolute;
-  width: 102px;
-  height: 27px;
-  left: 65px;
-  top: 127px;
-  z-index: 1;
+    position: absolute;
+    width: 102px;
+    height: 27px;
+    left: 65px;
+    top: 127px;
+    z-index: 1;
 }
 #map{
-  position: absolute;
-  width: 89px;
-  height: 27px;
-  left: 65px;
-  top: 190px;
-  z-index: 1;
+    position: absolute;
+    width: 89px;
+    height: 27px;
+    left: 65px;
+    top: 190px;
+    z-index: 1;
 }
 #text1{
-  position: absolute;
-  width: 435px;
-  height: 48px;
-  left: 120px;
-  top: 20px;
+    position: absolute;
+    width: 435px;
+    height: 48px;
+    left: 120px;
+    top: 20px;
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 48px;
-  /* identical to box height */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
 
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 
-  color: #FFEF5A;
+    color: #FFEF5A;
 
 }
 #text2{
-  position: absolute;
-  width: 435px;
-  height: 48px;
-  left: 260px;
-  top: 20px;
+    position: absolute;
+    width: 435px;
+    height: 48px;
+    left: 260px;
+    top: 20px;
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 48px;
-  /* identical to box height */
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
 
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 
-  color: black;
+    color: black;
 }
 #introduction{
 
-  position: absolute;
-  width: 415px;
-  height: 221px;
-  left: 120px;
-  top: 60px;
+    position: absolute;
+    width: 415px;
+    height: 221px;
+    left: 120px;
+    top: 60px;
 
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 33px;
-  display: flex;
-  align-items: center;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
 
-  color: #484646;
+    color: #484646;
 }
 #generatenumber{
 
 }
 
-#cafenum{
-  position: absolute;
-  width: 191px;
-  height: 33px;
-  left: 190px;
-  top: 82px;
+#cafenum {
+    position: absolute;
+    width: 191px;
+    height: 33px;
+    left: 190px;
+    top: 75px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
 
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 33px;
-  /* identical to box height */
+    display: flex;
+    align-items: center;
 
-  display: flex;
-  align-items: center;
-
-  color: #504D4D;
+    color: #504D4D;
 
 
 }
 #cafemeter{
-  position: absolute;
-  width: 364px;
-  height: 60px;
-  left: 380px;
-  top: 262px;
-
-  background: rgba(162, 161, 160, 0.3);
-  border-radius: 15px;
+    position: absolute;
+    width: 364px;
+    height: 60px;
+    left: 380px;
+    top: 252px;
+    background: rgba(162, 161, 160, 0.3);
+    border-radius: 15px;
 }
 #cafemeter img{
-  position: absolute;
-  width: 100px;
-  top:-30px;
-  left:-30px;
+    position: absolute;
+    width: 100px;
+    top:-30px;
+    left:-30px;
 }
 #line{
-  top:338px;
-  left:349px;
+    top:338px;
+    left:349px;
 }
 #osm-map{
-  position: absolute;
-  top:350px;
-  left:350px;
+    position: absolute;
+    top:350px;
+    left:350px;
 }
 #cafemeter p{
-  position: absolute;
-  left:80px;
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  top:-15px;
-  display: flex;
-  align-items: center;
+    position: absolute;
+    left:80px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    top:-15px;
+    display: flex;
+    align-items: center;
 
-  color: #3E3C3C;
-
-}
-.home2{
+    color: #3E3C3C;
 
 }
 </style>
