@@ -1,8 +1,8 @@
 <template style="background: gray;">
   <div class="home2">
 
-    <img style="position: absolute; width: 150px; left:60px;" src="/images/thumbnail.png">
-    <img src="/images/Subtract.png" style="position: absolute;">
+    <img  id="logo"  style="position: absolute; width: 150px; left:60px;" src="/images/thumbnail.png">
+    <img id="subtract" src="/images/Subtract.png" style="position: absolute;">
 
     <!--<p id="home">Home</p>
     <p id="map">Map</p>-->
@@ -14,13 +14,12 @@
 
     <div  id="box" >
       <img src="/images/location.png" id="location">
-
       <p id="text1">Mornings </p><p id="text2">begin with coffee</p>
       <p id="introduction">Start your day with a cup of good coffee and
         some good treats that will definitely satisfy
         your sweet tooth</p>
 
-      <p id="generatenumber"> </p>
+      <p id="generatenumber" v-on:loadstart="addCounter"> </p>
       <p id="cafenum">cafes around you
       </p>
     </div>
@@ -28,11 +27,12 @@
       <p style="top:7px;">Nearest cafe</p>
 
      <img src="/images/coffee.png">
+        <p id="cafemetertext"></p>
     </div>
-    <img style="position: absolute; width: 400px; top:340px; left:900px;"  src="/images/taxi-coffee-break-1.png">
-    <div id="osm-map">
-      <iframe width="455" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.428285837173465%2C41.99308521775743%2C21.436504125595093%2C41.997885351837176&amp;layer=hot" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=17/41.99549/21.43239&amp;layers=H">.</a></small>
-    </div>
+    <img style="position: absolute; width: 400px; top:340px; left:900px;" id="coffee_break" src="/images/taxi-coffee-break-1.png">
+      <div id="osm-map">
+          <iframe width="455" height="250" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=21.428285837173465%2C41.99308521775743%2C21.436504125595093%2C41.997885351837176&amp;layer=hot" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=17/41.99549/21.43239&amp;layers=H">.</a></small>
+      </div>
     <svg id="svg1" width="346" height="260" viewBox="0 0 346 260" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g filter="url(#filter0_d_357_122)">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.00002 69.7051C4.00002 69.376 4.0057 69.0481 4.01697 68.7217C4.55409 84.8185 17.7724 97.7029 34 97.7029H250.279C266.848 97.7029 280.279 84.2715 280.279 67.703V44C290.213 48.3008 297.163 58.1914 297.163 69.7051C297.163 85.1679 284.628 97.703 269.165 97.703H31.9978C16.535 97.703 4.00002 85.1679 4.00002 69.7051ZM4 181.697C4 166.234 16.535 153.699 31.9978 153.699H33.865C17.699 153.77 4.55233 166.628 4.01696 182.68C4.00568 182.354 4 182.026 4 181.697ZM280.279 207.402C290.213 203.101 297.163 193.21 297.163 181.697C297.163 166.234 284.628 153.699 269.165 153.699H250.414C266.921 153.772 280.279 167.175 280.279 183.699V207.402ZM250.398 153.699H269.165C284.628 153.699 297.163 141.164 297.163 125.701C297.163 110.238 284.628 97.7031 269.165 97.7031H61.1606C45.6978 97.7031 33.1628 110.238 33.1628 125.701C33.1628 141.126 45.636 153.637 61.0462 153.698H250.279C250.319 153.698 250.358 153.699 250.398 153.699Z" fill="white"/>
@@ -69,609 +69,626 @@
 </template>
 
 <script>
+import $ from 'jquery'
+import axios from "axios";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+import json from "./CafeInfo.json";
+import vue2Leaflet from 'vue2-leaflet'
+
 export default {
+
   name: "gray-page",
   created: function () {
-    document.body.style.backgroundColor = "#E2E2E2";
+      // axios.get("/../database/map.geojson").then((result) => {
+      //     console.log(result.data);
+      // })
+
   },
   destroyed: function () {
     document.body.style.backgroundColor = null;
-  },data:function(){
-        return {
-            counter: 0,
-            meters: 0,
-            markers: [
-                {
-                    "Id": 1,
-                    "Name": "Broz Cafe",
-                    "Longitude": "21.4167030",
-                    "Latitude": "42.0001541"
-                },
-                {
-                    "Id": 2,
-                    "Name": "Total",
-                    "Longitude": "22.0110153",
-                    "Latitude": "41.4372049"
-                },
-                {
-                    "Id": 3,
-                    "Name": "Roma",
-                    "Longitude": "22.0110601",
-                    "Latitude": "41.4370270"
-                },
-                {
-                    "Id": 4,
-                    "Name": "Blue Cafe",
-                    "Longitude": "22.0131384",
-                    "Latitude": "41.4352466"
-                },
-                {
-                    "Id": 5,
-                    "Name": "Picaso",
-                    "Longitude": "22.0104295",
-                    "Latitude": "41.4398268"
-                },
-                {
-                    "Id": 6,
-                    "Name": "Benneton",
-                    "Longitude": "21.4232268",
-                    "Latitude": "41.9948867"
-                },
-                {
-                    "Id": 7,
-                    "Name": "AMG",
-                    "Longitude": "21.4230113",
-                    "Latitude": "41.9948604"
-                },
-                {
-                    "Id": 8,
-                    "Name": "Strip",
-                    "Longitude": "21.4253358",
-                    "Latitude": "41.9955693"
-                },
-                {
-                    "Id": 9,
-                    "Name": "Old School",
-                    "Longitude": "21.2483529",
-                    "Latitude": "41.3679722"
-                },
-                {
-                    "Id": 10,
-                    "Name": "First",
-                    "Longitude": "21.2168806",
-                    "Latitude": "41.5069813"
-                },
-                {
-                    "Id": 11,
-                    "Name": "Cafe Bar Š",
-                    "Longitude": "21.2163903",
-                    "Latitude": "41.5067247"
-                },
-                {
-                    "Id": 12,
-                    "Name": "Kardinal",
-                    "Longitude": "21.2165604",
-                    "Latitude": "41.5133537"
-                },
-                {
-                    "Id": 13,
-                    "Name": "Play Cafe",
-                    "Longitude": "21.4298360",
-                    "Latitude": "41.9926530"
-                },
-                {
-                    "Id": 14,
-                    "Name": "Bistro Opera Pub",
-                    "Longitude": "21.4373453",
-                    "Latitude": "41.9984414"
-                },
-                {
-                    "Id": 15,
-                    "Name": "Bugatti",
-                    "Longitude": "21.4159604",
-                    "Latitude": "42.0047028"
-                },
-                {
-                    "Id": 16,
-                    "Name": "City Cafe",
-                    "Longitude": "22.6389491",
-                    "Latitude": "41.4389263"
-                },
-                {
-                    "Id": 17,
-                    "Name": "Cafe 19",
-                    "Longitude": "22.6378848",
-                    "Latitude": "41.4395247"
-                },
-                {
-                    "Id": 18,
-                    "Name": "Galerija",
-                    "Longitude": "22.3362079",
-                    "Latitude": "42.2056104"
-                },
-                {
-                    "Id": 19,
-                    "Name": "Take Five",
-                    "Longitude": "21.5541527",
-                    "Latitude": "41.3456817"
-                },
-                {
-                    "Id": 20,
-                    "Name": "Di Caprio",
-                    "Longitude": "21.5536992",
-                    "Latitude": "41.3453183"
-                },
-                {
-                    "Id": 21,
-                    "Name": "Angel's Caffe",
-                    "Longitude": "22.1926393",
-                    "Latitude": "41.7427284"
-                },
-                {
-                    "Id": 22,
-                    "Name": "Fluid",
-                    "Longitude": "21.3983460",
-                    "Latitude": "42.0034224"
-                },
-                {
-                    "Id": 23,
-                    "Name": "Lee",
-                    "Longitude": "21.4091295",
-                    "Latitude": "41.9972910"
-                },
-                {
-                    "Id": 24,
-                    "Name": "Irish Pub",
-                    "Longitude": "21.7189898",
-                    "Latitude": "42.1342820"
-                },
-                {
-                    "Id": 25,
-                    "Name": "Fransh",
-                    "Longitude": "21.7189408",
-                    "Latitude": "42.1341627"
-                },
-                {
-                    "Id": 26,
-                    "Name": "Royal",
-                    "Longitude": "21.4484000",
-                    "Latitude": "42.0582551"
-                },
-                {
-                    "Id": 27,
-                    "Name": "Up Cafe",
-                    "Longitude": "21.4324491",
-                    "Latitude": "41.9950653"
-                },
-                {
-                    "Id": 28,
-                    "Name": "Cafe Bar Touch",
-                    "Longitude": "21.3371290",
-                    "Latitude": "41.0248295"
-                },
-                {
-                    "Id": 29,
-                    "Name": "Art Caf?",
-                    "Longitude": "21.3366193",
-                    "Latitude": "41.0257036"
-                },
-                {
-                    "Id": 30,
-                    "Name": "Globaltech",
-                    "Longitude": "21.3365818",
-                    "Latitude": "41.0247991"
-                },
-                {
-                    "Id": 31,
-                    "Name": "Planet",
-                    "Longitude": "21.2484945",
-                    "Latitude": "41.3683487"
-                },
-                {
-                    "Id": 32,
-                    "Name": "Milenium",
-                    "Longitude": "20.7992346",
-                    "Latitude": "41.1131208"
-                },
-                {
-                    "Id": 33,
-                    "Name": "Galerija",
-                    "Longitude": "20.7992077",
-                    "Latitude": "41.1130834"
-                },
-                {
-                    "Id": 34,
-                    "Name": "Bocata",
-                    "Longitude": "21.4308204",
-                    "Latitude": "41.9955477"
-                },
-                {
-                    "Id": 35,
-                    "Name": "Delirium",
-                    "Longitude": "22.5892057",
-                    "Latitude": "42.0218468"
-                },
-                {
-                    "Id": 36,
-                    "Name": "Select Caffe",
-                    "Longitude": "22.3355446",
-                    "Latitude": "42.2022003"
-                },
-                {
-                    "Id": 37,
-                    "Name": "Cafe-inn",
-                    "Longitude": "21.6274047",
-                    "Latitude": "41.9608168"
-                },
-                {
-                    "Id": 38,
-                    "Name": "Apolon",
-                    "Longitude": "22.7757929",
-                    "Latitude": "41.9669685"
-                },
-                {
-                    "Id": 39,
-                    "Name": "Riva Caffè",
-                    "Longitude": "20.9619853",
-                    "Latitude": "41.9993210"
-                },
-                {
-                    "Id": 40,
-                    "Name": "Clique Bar",
-                    "Longitude": "21.4366103",
-                    "Latitude": "41.9994358"
-                },
-                {
-                    "Id": 41,
-                    "Name": "Park Cafe",
-                    "Longitude": "21.7185297",
-                    "Latitude": "42.1298965"
-                },
-                {
-                    "Id": 42,
-                    "Name": "Hive Cafe",
-                    "Longitude": "21.5555893",
-                    "Latitude": "41.3330606"
-                },
-                {
-                    "Id": 43,
-                    "Name": "Irish Pub",
-                    "Longitude": "20.9714342",
-                    "Latitude": "42.0075662"
-                },
-                {
-                    "Id": 44,
-                    "Name": "Coffee corner",
-                    "Longitude": "21.4355656",
-                    "Latitude": "42.0010222"
-                },
-                {
-                    "Id": 45,
-                    "Name": "Plato Coffee 2.0",
-                    "Longitude": "21.4059250",
-                    "Latitude": "41.9986280"
-                },
-                {
-                    "Id": 46,
-                    "Name": "Urban",
-                    "Longitude": "21.4370091",
-                    "Latitude": "41.9999671"
-                },
-                {
-                    "Id": 47,
-                    "Name": "Paladin M",
-                    "Longitude": "21.4158769",
-                    "Latitude": "42.0003534"
-                },
-                {
-                    "Id": 48,
-                    "Name": "Republic Cafe",
-                    "Longitude": "20.9740134",
-                    "Latitude": "42.0100196"
-                },
-                {
-                    "Id": 49,
-                    "Name": "Garden",
-                    "Longitude": "20.9713496",
-                    "Latitude": "42.0075938"
-                },
-                {
-                    "Id": 50,
-                    "Name": "Lego",
-                    "Longitude": "22.0113116",
-                    "Latitude": "41.4358281"
-                },
-                {
-                    "Id": 51,
-                    "Name": "Gallery 7",
-                    "Longitude": "21.4381580",
-                    "Latitude": "42.0009497"
-                },
-                {
-                    "Id": 52,
-                    "Name": "Fabrique",
-                    "Longitude": "20.8043172",
-                    "Latitude": "41.1133950"
-                },
-                {
-                    "Id": 53,
-                    "Name": "Harely Bar",
-                    "Longitude": "20.9595450",
-                    "Latitude": "41.5093546"
-                },
-                {
-                    "Id": 54,
-                    "Name": "Playcademy",
-                    "Longitude": "20.9741250",
-                    "Latitude": "42.0079719"
-                },
-                {
-                    "Id": 55,
-                    "Name": "Plaza Café",
-                    "Longitude": "21.9403876",
-                    "Latitude": "41.8644909"
-                },
-                {
-                    "Id": 56,
-                    "Name": "Coffee Bar “Bonton”",
-                    "Longitude": "20.8909814",
-                    "Latitude": "41.8649667"
-                },
-                {
-                    "Id": 57,
-                    "Name": "BU Coffee to go",
-                    "Longitude": "22.6382644",
-                    "Latitude": "41.4372542"
-                },
-                {
-                    "Id": 58,
-                    "Name": "Giovani",
-                    "Longitude": "21.3991821",
-                    "Latitude": "42.0034483"
-                },
-                {
-                    "Id": 59,
-                    "Name": "63",
-                    "Longitude": "21.4444199",
-                    "Latitude": "41.9768128"
-                },
-                {
-                    "Id": 60,
-                    "Name": "New Age",
-                    "Longitude": "21.4230134",
-                    "Latitude": "41.9958526"
-                },
-                {
-                    "Id": 61,
-                    "Name": "Laika",
-                    "Longitude": "21.4216953",
-                    "Latitude": "42.0013652"
-                },
-                {
-                    "Id": 62,
-                    "Name": "k8",
-                    "Longitude": "21.4361778",
-                    "Latitude": "42.0002555"
-                },
-                {
-                    "Id": 63,
-                    "Name": "Cliff of Moher",
-                    "Longitude": "22.5893701",
-                    "Latitude": "42.0217484"
-                },
-                {
-                    "Id": 64,
-                    "Name": "Joy Café & Bakery",
-                    "Longitude": "21.4109206",
-                    "Latitude": "42.0055109"
-                },
-                {
-                    "Id": 65,
-                    "Name": "Coffee O'Clock",
-                    "Longitude": "21.4260361",
-                    "Latitude": "41.9907255"
-                },
-                {
-                    "Id": 66,
-                    "Name": "Saccaria",
-                    "Longitude": "20.9615869",
-                    "Latitude": "42.0065846"
-                },
-                {
-                    "Id": 67,
-                    "Name": "Queen Maria",
-                    "Longitude": "22.2338614",
-                    "Latitude": "41.4143541"
-                },
-                {
-                    "Id": 68,
-                    "Name": "Amsterdam",
-                    "Longitude": "21.5548403",
-                    "Latitude": "41.3462335"
-                },
-                {
-                    "Id": 69,
-                    "Name": "Tantra",
-                    "Longitude": "20.9721424",
-                    "Latitude": "42.0072505"
-                },
-                {
-                    "Id": 70,
-                    "Name": "Ultra",
-                    "Longitude": "20.9602672",
-                    "Latitude": "41.9913951"
-                },
-                {
-                    "Id": 71,
-                    "Name": "Simple Cafe",
-                    "Longitude": "20.9791319",
-                    "Latitude": "42.0088358"
-                },
-                {
-                    "Id": 72,
-                    "Name": "Happy",
-                    "Longitude": "21.4534770",
-                    "Latitude": "41.9885027"
-                },
-                {
-                    "Id": 73,
-                    "Name": "Coffe House Downtown",
-                    "Longitude": "22.4648163",
-                    "Latitude": "41.6341662"
-                },
-                {
-                    "Id": 74,
-                    "Name": "Coffee Lab",
-                    "Longitude": "22.1959414",
-                    "Latitude": "41.7385560"
-                },
-                {
-                    "Id": 75,
-                    "Name": "Izzi",
-                    "Longitude": "21.4192046",
-                    "Latitude": "41.9927714"
-                },
-                {
-                    "Id": 76,
-                    "Name": "Get caffe",
-                    "Longitude": "21.4448074",
-                    "Latitude": "41.9728434"
-                },
-                {
-                    "Id": 77,
-                    "Name": "In Cafe",
-                    "Longitude": "21.3359033",
-                    "Latitude": "41.0285254"
-                },
-                {
-                    "Id": 78,
-                    "Name": "Portal 2 Cafe",
-                    "Longitude": "21.3359314",
-                    "Latitude": "41.0284799"
-                },
-                {
-                    "Id": 79,
-                    "Name": "Beko's Caffe",
-                    "Longitude": "20.9518032",
-                    "Latitude": "42.0012645"
-                },
-                {
-                    "Id": 80,
-                    "Name": "Jazz Taverna",
-                    "Longitude": "21.0116539",
-                    "Latitude": "41.0893491"
-                },
-                {
-                    "Id": 81,
-                    "Name": "Barista",
-                    "Longitude": "22.5047905",
-                    "Latitude": "41.1403190"
-                },
-                {
-                    "Id": 82,
-                    "Name": "Cine 501",
-                    "Longitude": "20.9268824",
-                    "Latitude": "41.9405207"
-                },
-                {
-                    "Id": 83,
-                    "Name": "Concept37",
-                    "Longitude": "21.4127725",
-                    "Latitude": "41.9994110"
-                },
-                {
-                    "Id": 84,
-                    "Name": "Mojito",
-                    "Longitude": "20.8021988",
-                    "Latitude": "41.1124655"
+  },
+    data:function(){
+      return {
+          counter: 0,
+          meters: 0,
+          markers: [
+              {
+                  "Id": 1,
+                  "Name": "Broz Cafe",
+                  "Longitude": "21.4167030",
+                  "Latitude": "42.0001541"
+              },
+              {
+                  "Id": 2,
+                  "Name": "Total",
+                  "Longitude": "22.0110153",
+                  "Latitude": "41.4372049"
+              },
+              {
+                  "Id": 3,
+                  "Name": "Roma",
+                  "Longitude": "22.0110601",
+                  "Latitude": "41.4370270"
+              },
+              {
+                  "Id": 4,
+                  "Name": "Blue Cafe",
+                  "Longitude": "22.0131384",
+                  "Latitude": "41.4352466"
+              },
+              {
+                  "Id": 5,
+                  "Name": "Picaso",
+                  "Longitude": "22.0104295",
+                  "Latitude": "41.4398268"
+              },
+              {
+                  "Id": 6,
+                  "Name": "Benneton",
+                  "Longitude": "21.4232268",
+                  "Latitude": "41.9948867"
+              },
+              {
+                  "Id": 7,
+                  "Name": "AMG",
+                  "Longitude": "21.4230113",
+                  "Latitude": "41.9948604"
+              },
+              {
+                  "Id": 8,
+                  "Name": "Strip",
+                  "Longitude": "21.4253358",
+                  "Latitude": "41.9955693"
+              },
+              {
+                  "Id": 9,
+                  "Name": "Old School",
+                  "Longitude": "21.2483529",
+                  "Latitude": "41.3679722"
+              },
+              {
+                  "Id": 10,
+                  "Name": "First",
+                  "Longitude": "21.2168806",
+                  "Latitude": "41.5069813"
+              },
+              {
+                  "Id": 11,
+                  "Name": "Cafe Bar Š",
+                  "Longitude": "21.2163903",
+                  "Latitude": "41.5067247"
+              },
+              {
+                  "Id": 12,
+                  "Name": "Kardinal",
+                  "Longitude": "21.2165604",
+                  "Latitude": "41.5133537"
+              },
+              {
+                  "Id": 13,
+                  "Name": "Play Cafe",
+                  "Longitude": "21.4298360",
+                  "Latitude": "41.9926530"
+              },
+              {
+                  "Id": 14,
+                  "Name": "Bistro Opera Pub",
+                  "Longitude": "21.4373453",
+                  "Latitude": "41.9984414"
+              },
+              {
+                  "Id": 15,
+                  "Name": "Bugatti",
+                  "Longitude": "21.4159604",
+                  "Latitude": "42.0047028"
+              },
+              {
+                  "Id": 16,
+                  "Name": "City Cafe",
+                  "Longitude": "22.6389491",
+                  "Latitude": "41.4389263"
+              },
+              {
+                  "Id": 17,
+                  "Name": "Cafe 19",
+                  "Longitude": "22.6378848",
+                  "Latitude": "41.4395247"
+              },
+              {
+                  "Id": 18,
+                  "Name": "Galerija",
+                  "Longitude": "22.3362079",
+                  "Latitude": "42.2056104"
+              },
+              {
+                  "Id": 19,
+                  "Name": "Take Five",
+                  "Longitude": "21.5541527",
+                  "Latitude": "41.3456817"
+              },
+              {
+                  "Id": 20,
+                  "Name": "Di Caprio",
+                  "Longitude": "21.5536992",
+                  "Latitude": "41.3453183"
+              },
+              {
+                  "Id": 21,
+                  "Name": "Angel's Caffe",
+                  "Longitude": "22.1926393",
+                  "Latitude": "41.7427284"
+              },
+              {
+                  "Id": 22,
+                  "Name": "Fluid",
+                  "Longitude": "21.3983460",
+                  "Latitude": "42.0034224"
+              },
+              {
+                  "Id": 23,
+                  "Name": "Lee",
+                  "Longitude": "21.4091295",
+                  "Latitude": "41.9972910"
+              },
+              {
+                  "Id": 24,
+                  "Name": "Irish Pub",
+                  "Longitude": "21.7189898",
+                  "Latitude": "42.1342820"
+              },
+              {
+                  "Id": 25,
+                  "Name": "Fransh",
+                  "Longitude": "21.7189408",
+                  "Latitude": "42.1341627"
+              },
+              {
+                  "Id": 26,
+                  "Name": "Royal",
+                  "Longitude": "21.4484000",
+                  "Latitude": "42.0582551"
+              },
+              {
+                  "Id": 27,
+                  "Name": "Up Cafe",
+                  "Longitude": "21.4324491",
+                  "Latitude": "41.9950653"
+              },
+              {
+                  "Id": 28,
+                  "Name": "Cafe Bar Touch",
+                  "Longitude": "21.3371290",
+                  "Latitude": "41.0248295"
+              },
+              {
+                  "Id": 29,
+                  "Name": "Art Caf?",
+                  "Longitude": "21.3366193",
+                  "Latitude": "41.0257036"
+              },
+              {
+                  "Id": 30,
+                  "Name": "Globaltech",
+                  "Longitude": "21.3365818",
+                  "Latitude": "41.0247991"
+              },
+              {
+                  "Id": 31,
+                  "Name": "Planet",
+                  "Longitude": "21.2484945",
+                  "Latitude": "41.3683487"
+              },
+              {
+                  "Id": 32,
+                  "Name": "Milenium",
+                  "Longitude": "20.7992346",
+                  "Latitude": "41.1131208"
+              },
+              {
+                  "Id": 33,
+                  "Name": "Galerija",
+                  "Longitude": "20.7992077",
+                  "Latitude": "41.1130834"
+              },
+              {
+                  "Id": 34,
+                  "Name": "Bocata",
+                  "Longitude": "21.4308204",
+                  "Latitude": "41.9955477"
+              },
+              {
+                  "Id": 35,
+                  "Name": "Delirium",
+                  "Longitude": "22.5892057",
+                  "Latitude": "42.0218468"
+              },
+              {
+                  "Id": 36,
+                  "Name": "Select Caffe",
+                  "Longitude": "22.3355446",
+                  "Latitude": "42.2022003"
+              },
+              {
+                  "Id": 37,
+                  "Name": "Cafe-inn",
+                  "Longitude": "21.6274047",
+                  "Latitude": "41.9608168"
+              },
+              {
+                  "Id": 38,
+                  "Name": "Apolon",
+                  "Longitude": "22.7757929",
+                  "Latitude": "41.9669685"
+              },
+              {
+                  "Id": 39,
+                  "Name": "Riva Caffè",
+                  "Longitude": "20.9619853",
+                  "Latitude": "41.9993210"
+              },
+              {
+                  "Id": 40,
+                  "Name": "Clique Bar",
+                  "Longitude": "21.4366103",
+                  "Latitude": "41.9994358"
+              },
+              {
+                  "Id": 41,
+                  "Name": "Park Cafe",
+                  "Longitude": "21.7185297",
+                  "Latitude": "42.1298965"
+              },
+              {
+                  "Id": 42,
+                  "Name": "Hive Cafe",
+                  "Longitude": "21.5555893",
+                  "Latitude": "41.3330606"
+              },
+              {
+                  "Id": 43,
+                  "Name": "Irish Pub",
+                  "Longitude": "20.9714342",
+                  "Latitude": "42.0075662"
+              },
+              {
+                  "Id": 44,
+                  "Name": "Coffee corner",
+                  "Longitude": "21.4355656",
+                  "Latitude": "42.0010222"
+              },
+              {
+                  "Id": 45,
+                  "Name": "Plato Coffee 2.0",
+                  "Longitude": "21.4059250",
+                  "Latitude": "41.9986280"
+              },
+              {
+                  "Id": 46,
+                  "Name": "Urban",
+                  "Longitude": "21.4370091",
+                  "Latitude": "41.9999671"
+              },
+              {
+                  "Id": 47,
+                  "Name": "Paladin M",
+                  "Longitude": "21.4158769",
+                  "Latitude": "42.0003534"
+              },
+              {
+                  "Id": 48,
+                  "Name": "Republic Cafe",
+                  "Longitude": "20.9740134",
+                  "Latitude": "42.0100196"
+              },
+              {
+                  "Id": 49,
+                  "Name": "Garden",
+                  "Longitude": "20.9713496",
+                  "Latitude": "42.0075938"
+              },
+              {
+                  "Id": 50,
+                  "Name": "Lego",
+                  "Longitude": "22.0113116",
+                  "Latitude": "41.4358281"
+              },
+              {
+                  "Id": 51,
+                  "Name": "Gallery 7",
+                  "Longitude": "21.4381580",
+                  "Latitude": "42.0009497"
+              },
+              {
+                  "Id": 52,
+                  "Name": "Fabrique",
+                  "Longitude": "20.8043172",
+                  "Latitude": "41.1133950"
+              },
+              {
+                  "Id": 53,
+                  "Name": "Harely Bar",
+                  "Longitude": "20.9595450",
+                  "Latitude": "41.5093546"
+              },
+              {
+                  "Id": 54,
+                  "Name": "Playcademy",
+                  "Longitude": "20.9741250",
+                  "Latitude": "42.0079719"
+              },
+              {
+                  "Id": 55,
+                  "Name": "Plaza Café",
+                  "Longitude": "21.9403876",
+                  "Latitude": "41.8644909"
+              },
+              {
+                  "Id": 56,
+                  "Name": "Coffee Bar “Bonton”",
+                  "Longitude": "20.8909814",
+                  "Latitude": "41.8649667"
+              },
+              {
+                  "Id": 57,
+                  "Name": "BU Coffee to go",
+                  "Longitude": "22.6382644",
+                  "Latitude": "41.4372542"
+              },
+              {
+                  "Id": 58,
+                  "Name": "Giovani",
+                  "Longitude": "21.3991821",
+                  "Latitude": "42.0034483"
+              },
+              {
+                  "Id": 59,
+                  "Name": "63",
+                  "Longitude": "21.4444199",
+                  "Latitude": "41.9768128"
+              },
+              {
+                  "Id": 60,
+                  "Name": "New Age",
+                  "Longitude": "21.4230134",
+                  "Latitude": "41.9958526"
+              },
+              {
+                  "Id": 61,
+                  "Name": "Laika",
+                  "Longitude": "21.4216953",
+                  "Latitude": "42.0013652"
+              },
+              {
+                  "Id": 62,
+                  "Name": "k8",
+                  "Longitude": "21.4361778",
+                  "Latitude": "42.0002555"
+              },
+              {
+                  "Id": 63,
+                  "Name": "Cliff of Moher",
+                  "Longitude": "22.5893701",
+                  "Latitude": "42.0217484"
+              },
+              {
+                  "Id": 64,
+                  "Name": "Joy Café & Bakery",
+                  "Longitude": "21.4109206",
+                  "Latitude": "42.0055109"
+              },
+              {
+                  "Id": 65,
+                  "Name": "Coffee O'Clock",
+                  "Longitude": "21.4260361",
+                  "Latitude": "41.9907255"
+              },
+              {
+                  "Id": 66,
+                  "Name": "Saccaria",
+                  "Longitude": "20.9615869",
+                  "Latitude": "42.0065846"
+              },
+              {
+                  "Id": 67,
+                  "Name": "Queen Maria",
+                  "Longitude": "22.2338614",
+                  "Latitude": "41.4143541"
+              },
+              {
+                  "Id": 68,
+                  "Name": "Amsterdam",
+                  "Longitude": "21.5548403",
+                  "Latitude": "41.3462335"
+              },
+              {
+                  "Id": 69,
+                  "Name": "Tantra",
+                  "Longitude": "20.9721424",
+                  "Latitude": "42.0072505"
+              },
+              {
+                  "Id": 70,
+                  "Name": "Ultra",
+                  "Longitude": "20.9602672",
+                  "Latitude": "41.9913951"
+              },
+              {
+                  "Id": 71,
+                  "Name": "Simple Cafe",
+                  "Longitude": "20.9791319",
+                  "Latitude": "42.0088358"
+              },
+              {
+                  "Id": 72,
+                  "Name": "Happy",
+                  "Longitude": "21.4534770",
+                  "Latitude": "41.9885027"
+              },
+              {
+                  "Id": 73,
+                  "Name": "Coffe House Downtown",
+                  "Longitude": "22.4648163",
+                  "Latitude": "41.6341662"
+              },
+              {
+                  "Id": 74,
+                  "Name": "Coffee Lab",
+                  "Longitude": "22.1959414",
+                  "Latitude": "41.7385560"
+              },
+              {
+                  "Id": 75,
+                  "Name": "Izzi",
+                  "Longitude": "21.4192046",
+                  "Latitude": "41.9927714"
+              },
+              {
+                  "Id": 76,
+                  "Name": "Get caffe",
+                  "Longitude": "21.4448074",
+                  "Latitude": "41.9728434"
+              },
+              {
+                  "Id": 77,
+                  "Name": "In Cafe",
+                  "Longitude": "21.3359033",
+                  "Latitude": "41.0285254"
+              },
+              {
+                  "Id": 78,
+                  "Name": "Portal 2 Cafe",
+                  "Longitude": "21.3359314",
+                  "Latitude": "41.0284799"
+              },
+              {
+                  "Id": 79,
+                  "Name": "Beko's Caffe",
+                  "Longitude": "20.9518032",
+                  "Latitude": "42.0012645"
+              },
+              {
+                  "Id": 80,
+                  "Name": "Jazz Taverna",
+                  "Longitude": "21.0116539",
+                  "Latitude": "41.0893491"
+              },
+              {
+                  "Id": 81,
+                  "Name": "Barista",
+                  "Longitude": "22.5047905",
+                  "Latitude": "41.1403190"
+              },
+              {
+                  "Id": 82,
+                  "Name": "Cine 501",
+                  "Longitude": "20.9268824",
+                  "Latitude": "41.9405207"
+              },
+              {
+                  "Id": 83,
+                  "Name": "Concept37",
+                  "Longitude": "21.4127725",
+                  "Latitude": "41.9994110"
+              },
+              {
+                  "Id": 84,
+                  "Name": "Mojito",
+                  "Longitude": "20.8021988",
+                  "Latitude": "41.1124655"
+              }
+          ],
+          map:null,
+      }
+    },
+    methods:{
+      addCounter(count){
+          $("#generatenumber").append(count);
+
+      },
+       addMeters(){
+          var distance=this.findClosestMarker();
+           $("#cafemetertext").append(distance+" m away");
+       },
+        CalcDistanceBetween(lat1, lon1, lat2, lon2) {
+            //Radius of the earth in:  1.609344 miles,  6371 km  | var R = (6371 / 1.609344);
+            var R = 3958.7558657440545; // Radius of earth in Miles
+            var dLat = (lat2-lat1) * Math.PI / 180;;
+            var dLon = (lon2-lon1) * Math.PI / 180;;
+            var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos((lat1) * Math.PI / 180) * Math.cos((lat2) * Math.PI / 180) *
+                Math.sin(dLon/2) * Math.sin(dLon/2);
+            var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            var d =Math.round((R * c *1609.344)*100/100) ;
+
+            return d;
+        },
+        findClosestMarker(){
+            var pointA = new L.LatLng(41.9972, 21.4331);
+
+            var minDistance = 10000000;
+            var closestPoint;
+            var distance
+            for (var a = 0; a < this.markers.length; a++) {
+                distance = Math.sqrt((pointA.lat - this.markers[a].Latitude) * (pointA.lat - this.markers[a].Latitude)
+                    + (pointA.lng - this.markers[a].Longitude)  * (pointA.lng - this.markers[a].Longitude));
+                if (distance < minDistance) {
+                    minDistance = distance;
+                    closestPoint = this.markers[a];
                 }
-            ],
-            map:null,
-        }
-    },
-    methods: {
-        addCounter(count) {
-            $("#generatenumber").append(count);
-
-        },
-        addMeters() {
-            var distance = this.findClosestMarker();
-            $("#cafemetertext").append(distance + " m away");
-        },
-    },CalcDistanceBetween(lat1, lon1, lat2, lon2) {
-        //Radius of the earth in:  1.609344 miles,  6371 km  | var R = (6371 / 1.609344);
-        var R = 3958.7558657440545; // Radius of earth in Miles
-        var dLat = (lat2-lat1) * Math.PI / 180;;
-        var dLon = (lon2-lon1) * Math.PI / 180;;
-        var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
-            Math.cos((lat1) * Math.PI / 180) * Math.cos((lat2) * Math.PI / 180) *
-            Math.sin(dLon/2) * Math.sin(dLon/2);
-        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-        var d =Math.round((R * c *1609.344)*100/100) ;
-
-        return d;
-    },
-    findClosestMarker(){
-        var pointA = new L.LatLng(41.9972, 21.4331);
-
-        var minDistance = 10000000;
-        var closestPoint;
-        var distance
-        for (var a = 0; a < this.markers.length; a++) {
-            distance = Math.sqrt((pointA.lat - this.markers[a].Latitude) * (pointA.lat - this.markers[a].Latitude)
-                + (pointA.lng - this.markers[a].Longitude)  * (pointA.lng - this.markers[a].Longitude));
-            if (distance < minDistance) {
-                minDistance = distance;
-                closestPoint = this.markers[a];
             }
+            return this.CalcDistanceBetween(pointA.lat,pointA.lng,closestPoint.Latitude,closestPoint.Longitude);
+
         }
-        return this.CalcDistanceBetween(pointA.lat,pointA.lng,closestPoint.Latitude,closestPoint.Longitude);
+
 
     },
 
+    mounted() {
+      document.body.style.backgroundColor = "#E2E2E2";
 
+      this.map=L.map('osm-map',{
+          center: [41.9972, 21.4331],
+          minZoom: 2,
+          zoom: 13
+      })
+          //.setView([41.9972, 21.4331],7);
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+            subdomains: ['a','b','c']
+        }).addTo(this.map);
+       this.map.dragging.enable();
 
-
-mounted() {
-    document.body.style.backgroundColor = "#E2E2E2";
-
-    this.map=L.map('osm-map',{
-        center: [41.9972, 21.4331],
-        minZoom: 2,
-        zoom: 13
-    })
-    //.setView([41.9972, 21.4331],7);
-    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-        subdomains: ['a','b','c']
-    }).addTo(this.map);
-    this.map.dragging.enable();
-
-    for ( var i=0; i < this.markers.length; ++i ) {
-        L.marker([this.markers[i].Latitude, this.markers[i].Longitude]).bindPopup(this.markers[i].Name).addTo(this.map);
-    }
-
-    //this.addCounter();
-    var bounds = this.map.getBounds();
-    var count=0;
-    this.map.eachLayer(function(layer) {
-        if (layer instanceof L.Marker) {
-            if (bounds.contains(layer.getLatLng())) count++;
+        for ( var i=0; i < this.markers.length; ++i ) {
+             L.marker([this.markers[i].Latitude, this.markers[i].Longitude]).bindPopup(this.markers[i].Name).addTo(this.map);
         }
-    });
-    this.findClosestMarker();
-    this.addCounter(count);
-    this.addMeters();
 
-}
+        //this.addCounter();
+        var bounds = this.map.getBounds();
+        var count=0;
+        this.map.eachLayer(function(layer) {
+            if (layer instanceof L.Marker) {
+                if (bounds.contains(layer.getLatLng())) count++;
+            }
+        });
+        this.findClosestMarker();
+        this.addCounter(count);
+        this.addMeters();
+
+    }
 };
 
 </script>
+
+
 <style>
 
+body{
+    background: rgba(162, 161, 160, 0.3);
+}
 #illustrationgirl{
     width: 170px;
-    margin-top:300px;
+    margin-top:290px;
     margin-left: 20px;
 }
 #illustrationgirl,#svg1,#line{
@@ -681,11 +698,11 @@ mounted() {
     position: absolute;
     width: 1090px;
     height: 630px;
-    margin-top: 15px;
     margin-left: 250px;
     background: #FFFFFF;
     border-radius: 48px;
 }
+
 #location{
     position: absolute;
     width: 25px;
@@ -729,6 +746,10 @@ mounted() {
     color: #FFEF5A;
 
 }
+#cafemetertext{
+    position:absolute;
+  margin-top:45px;
+    }
 #text2{
     position: absolute;
     width: 435px;
@@ -747,6 +768,16 @@ mounted() {
     align-items: center;
 
     color: black;
+}
+iframe{
+    width: 455px;
+    height: 250px;
+}
+#coffee_break{
+    position: absolute;
+    width: 400px;
+    top:340px;
+    left:900px;
 }
 #introduction{
 
@@ -768,14 +799,25 @@ mounted() {
 }
 #generatenumber{
 
+    position: absolute;
+    top: 80px;
+    left:163px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #504D4D;
+
 }
 
-#cafenum {
+#cafenum{
     position: absolute;
     width: 191px;
     height: 33px;
     left: 190px;
-    top: 75px;
+    top: 82px;
+
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -795,7 +837,8 @@ mounted() {
     width: 364px;
     height: 60px;
     left: 380px;
-    top: 252px;
+    top: 262px;
+
     background: rgba(162, 161, 160, 0.3);
     border-radius: 15px;
 }
@@ -828,4 +871,158 @@ mounted() {
     color: #3E3C3C;
 
 }
+#svg1{
+    width:346px;
+    height:260px;
+}
+@media screen and (max-width: 1150px){
+    body{
+        width: 70%;
+        background: rgba(162, 161, 160, 0.3);
+    }
+    #box{
+        width: 800px;
+        height: 600px;
+        align-content: center;
+        left: -40px;
+
+    }
+    #coffee_break{
+        width: 300px;
+        height: 250px;
+        left: 720px;
+    }
+    iframe{
+        width: 390px;
+        height: 210px;
+    }
+    #osm-map{
+        left: 300px;
+    }
+    #introduction{
+        font-size: 17px;
+        line-height: 30px;
+        left: 100px;
+
+    }
+    #illustrationgirl{
+        width: 150px;
+        height: 320px;
+        top:10px;
+    }
+    #text1{
+        left: 100px;
+    }
+    #location{
+        left: 100px;
+    }
+    #generatenumber{
+        left:120px;
+    }
+    #cafenum{
+        left: 150px;
+    }
+    #cafemeter{
+        left: 300px;
+    }
+    #line{
+        left: 300px;
+    }
+}
+@media screen and (max-width : 850px){
+    body {
+        background: rgba(162, 161, 160, 0.3);
+        width: 50%;
+    }
+    #box{
+        width: 600px;
+        height: 590px;
+        align-content: center;
+    }
+    #coffee_break{
+        display: none;
+    }
+    #illustrationgirl{
+        width: 110px;
+        height: 310px;
+        top:20px;
+        left: 40px;
+    }
+    iframe{
+        width: 440px;
+        height: 210px;
+    }
+    #line{
+        width: 440px;
+    }
+    #introduction{
+        font-size: 19px;
+
+    }
+}
+@media screen and (max-width: 600px){
+
+    body{
+        background: rgba(162, 161, 160, 0.3);
+        width: 40%;
+    }
+    #svg1{
+        z-index: -9999;
+        left: -70px;
+
+    }
+    #box{
+        width: 450px;
+        height: 600px;
+        margin-left: 150px;
+    }
+    #text1{
+        font-size: 30px;
+        left: 50px;
+    }
+    #text2{
+        font-size: 28px;
+        left: 190px;
+    }
+    #location{
+        left:50px;
+    }
+    #generatenumber{
+        left:500px;
+    }
+    #cafenum{
+        left:120px
+    }
+    #introduction{
+        left:50px;
+        width: 80%;
+    }
+    #cafemeter{
+        left: 160px;
+    }
+    #line{
+        left: 160px;
+        width: 370px;
+    }
+    #osm-map{
+        left: 160px;
+    }
+    iframe{
+        width: 370px;
+    }
+    img#homeicon{
+        margin-left: -60px;
+    }
+    #map{
+        margin-left: -60px;
+    }
+    #logo{
+        margin-left: -60px;
+    }
+    #illustrationgirl{
+        margin-left: -20px;
+        width: 90px;
+    }
+}
+
 </style>
