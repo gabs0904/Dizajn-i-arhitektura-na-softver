@@ -86,7 +86,72 @@ export default {
             var distance = this.findClosestMarker();
             $("#cafemetertext").append(distance + " m away");
         },
+    },CalcDistanceBetween(lat1, lon1, lat2, lon2) {
+        //Radius of the earth in:  1.609344 miles,  6371 km  | var R = (6371 / 1.609344);
+        var R = 3958.7558657440545; // Radius of earth in Miles
+        var dLat = (lat2-lat1) * Math.PI / 180;;
+        var dLon = (lon2-lon1) * Math.PI / 180;;
+        var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+            Math.cos((lat1) * Math.PI / 180) * Math.cos((lat2) * Math.PI / 180) *
+            Math.sin(dLon/2) * Math.sin(dLon/2);
+        var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+        var d =Math.round((R * c *1609.344)*100/100) ;
+
+        return d;
+    },
+    findClosestMarker(){
+        var pointA = new L.LatLng(41.9972, 21.4331);
+
+        var minDistance = 10000000;
+        var closestPoint;
+        var distance
+        for (var a = 0; a < this.markers.length; a++) {
+            distance = Math.sqrt((pointA.lat - this.markers[a].Latitude) * (pointA.lat - this.markers[a].Latitude)
+                + (pointA.lng - this.markers[a].Longitude)  * (pointA.lng - this.markers[a].Longitude));
+            if (distance < minDistance) {
+                minDistance = distance;
+                closestPoint = this.markers[a];
+            }
+        }
+        return this.CalcDistanceBetween(pointA.lat,pointA.lng,closestPoint.Latitude,closestPoint.Longitude);
+
+    },
+
+
+
+
+mounted() {
+    document.body.style.backgroundColor = "#E2E2E2";
+
+    this.map=L.map('osm-map',{
+        center: [41.9972, 21.4331],
+        minZoom: 2,
+        zoom: 13
+    })
+    //.setView([41.9972, 21.4331],7);
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: ['a','b','c']
+    }).addTo(this.map);
+    this.map.dragging.enable();
+
+    for ( var i=0; i < this.markers.length; ++i ) {
+        L.marker([this.markers[i].Latitude, this.markers[i].Longitude]).bindPopup(this.markers[i].Name).addTo(this.map);
     }
+
+    //this.addCounter();
+    var bounds = this.map.getBounds();
+    var count=0;
+    this.map.eachLayer(function(layer) {
+        if (layer instanceof L.Marker) {
+            if (bounds.contains(layer.getLatLng())) count++;
+        }
+    });
+    this.findClosestMarker();
+    this.addCounter(count);
+    this.addMeters();
+
+}
 };
 
 </script>
