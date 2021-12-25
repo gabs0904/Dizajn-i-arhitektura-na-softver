@@ -123,7 +123,22 @@ export default {
   destroyed: function () {
     document.body.style.backgroundColor = null;
   },
-};
+    methods:{
+        CalcDistanceBetween(lat1, lon1, lat2, lon2) {
+            //Radius of the earth in:  1.609344 miles,  6371 km  | var R = (6371 / 1.609344);
+            var R = 3958.7558657440545; // Radius of earth in Miles
+            var dLat = (lat2-lat1) * Math.PI / 180;;
+            var dLon = (lon2-lon1) * Math.PI / 180;;
+            var a = Math.sin(dLat/2) * Math.sin(dLat/2) +
+                Math.cos((lat1) * Math.PI / 180) * Math.cos((lat2) * Math.PI / 180) *
+                Math.sin(dLon/2) * Math.sin(dLon/2);
+            var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+            var d =Math.round((R * c *1609.344)*100/100) ;
+
+            return d;
+        },
+
+    };
 
 
 
