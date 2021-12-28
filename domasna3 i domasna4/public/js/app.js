@@ -2125,6 +2125,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 /***/ }),
 
@@ -3721,7 +3722,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nbody{\n  position: absolute;\n  width: 100%;\n  background: #FFFFFF;\n}\n#navbar.logo{\n  position: static;\n  width: 78.08px;\n  left: calc(50% - 78.08px/2);\n  top: 3.51%;\n  bottom: 3.51%;\n}\n#navbar{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0px;\n  position: absolute;\n  width: 1280px;\n  height: 51px;\n  left: 80px;\n  top: 40px;\n}\n#navbar .nav{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: flex-start;\n  padding: 0px;\n  position: static;\n  width: 312px;\n  height: 32px;\n  left: 433.04px;\n  top: 9.5px;\n}\n#home{\n  height: 22px;\n  left: 0%;\n  right: 84.29%;\n  top: calc(50% - 22px/2 - 5px);\n  font-family: Open Sans;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 18px;\n  line-height: 22px;\n  color: #3D251E;\n  padding-right: 10px;\n  text-decoration: underline;\n}\n#aboutUs{\n  position: static;\n  height: 32px;\n  left: 27.24%;\n  right: 48.08%;\n  top: calc(50% - 32px/2);\n  font-family: Open Sans;\n  font-style: normal;\n  padding-right: 10px;\n  font-weight: bold;\n  font-size: 18px;\n  line-height: 22px;\n  color: #9893A3;\n  text-decoration: none;\n}\n#howItWorks{\n  position: static;\n  height: 32px;\n  left: 63.46%;\n  right: 0%;\n  top: calc(50% - 32px/2);\n  font-family: Open Sans;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 18px;\n  line-height: 22px;\n  color: #9893A3;\n  text-decoration: none;\n  padding-right: 10px;\n}\n#navbar button{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  /*padding: 16px 30px;*/\n  margin-right: 124px;\n  position: static;\n  width: 170px;\n  height: 51px;\n  left: 0px;\n  top: 0px;\n\n  background: #3D251E;\n  border: 1px solid #3D251E;\n  box-sizing: border-box;\n  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n  border-radius: 50px;\n}\n#navbar button p{\n  position: static;\n  width: 96px;\n  height: 19px;\n  left: calc(50% - 96px/2);\n  top: calc(50% - 19px/2);\n  font-family: Open Sans;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 14px;\n  line-height: 19px;\n  text-align: center;\n  color: #FFFFFF;\n}\n#heroContent{\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  margin: 100px;\n  position: static;\n  width: 401px;\n  height: 355px;\n  /*left: 344.5px;*/\n  top: 0px;\n}\n#hero h1{\n  position: static;\n  width: 401px;\n  height: 176px;\n  left: 100px;\n  top: 0px;\n\n  /* H1 --desktop */\n\n  font-family: Playfair Display;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 66px;\n  /*line-height: 88px;*/\n  /* or 102% */\n\n  letter-spacing: -1px;\n}\n#hero p{\n  position: static;\n  width: 491px;\n  height: 68px;\n  left: calc(50% - 491px/2);\n  top: calc(50% - 68px/2 + 62.5px);\n  font-family: Open Sans;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 20px;\n  line-height: 34px;\n  color: #9893A3;\n}\n#herobutton{\n  position: static;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  width: 180px;\n  height: 51px;\n  margin-right: 150px;\n  background: #3D251E;\n  border: 1px solid #3D251E;\n  box-sizing: border-box;\n  border-radius: 50px;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 14px;\n  line-height: 19px;\n  text-align: center;\n  color: #FFFFFF;\n}\n#batkatailustracija{\n  position: absolute;\n  width: 380px;\n  left: 700px;\n  top: 90px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nbody{\n  position: absolute;\n  width: 100%;\n  background: #FFFFFF;\n}\n#navbar.logo{\n  position: static;\n  width: 78.08px;\n  left: calc(50% - 78.08px/2);\n  top: 3.51%;\n  bottom: 3.51%;\n}\n#navbar{\n  display: flex;\n  flex-direction: row;\n  justify-content: space-between;\n  align-items: center;\n  padding: 0px;\n  position: absolute;\n  width: 1280px;\n  height: 51px;\n  left: 80px;\n  top: 40px;\n}\n#navbar .nav{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: flex-start;\n  padding: 0px;\n  position: static;\n  width: 312px;\n  height: 32px;\n  left: 433.04px;\n  top: 9.5px;\n}\n#home{\n  height: 22px;\n  left: 0%;\n  right: 84.29%;\n  top: calc(50% - 22px/2 - 5px);\n  font-family: Open Sans;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 18px;\n  line-height: 22px;\n  color: #3D251E;\n  padding-right: 10px;\n  text-decoration: underline;\n}\n#aboutUs{\n  position: static;\n  height: 32px;\n  left: 27.24%;\n  right: 48.08%;\n  top: calc(50% - 32px/2);\n  font-family: Open Sans;\n  font-style: normal;\n  padding-right: 10px;\n  font-weight: bold;\n  font-size: 18px;\n  line-height: 22px;\n  color: #9893A3;\n  text-decoration: none;\n}\n#howItWorks{\n  position: static;\n  height: 32px;\n  left: 63.46%;\n  right: 0%;\n  top: calc(50% - 32px/2);\n  font-family: Open Sans;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 18px;\n  line-height: 22px;\n  color: #9893A3;\n  text-decoration: none;\n  padding-right: 10px;\n}\n#navbar button{\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  /*padding: 16px 30px;*/\n  margin-right: 124px;\n  position: static;\n  width: 170px;\n  height: 51px;\n  left: 0px;\n  top: 0px;\n\n  background: #3D251E;\n  border: 1px solid #3D251E;\n  box-sizing: border-box;\n  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);\n  border-radius: 50px;\n}\n#navbar button p{\n  position: static;\n  width: 96px;\n  height: 19px;\n  left: calc(50% - 96px/2);\n  top: calc(50% - 19px/2);\n  font-family: Open Sans;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 14px;\n  line-height: 19px;\n  text-align: center;\n  color: #FFFFFF;\n}\n#heroContent{\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  margin: 100px;\n  position: static;\n  width: 401px;\n  height: 355px;\n  /*left: 344.5px;*/\n  top: 0px;\n}\n#hero h1{\n  position: static;\n  width: 401px;\n  height: 176px;\n  left: 100px;\n  top: 0px;\n\n  /* H1 --desktop */\n\n  font-family: Playfair Display;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 66px;\n  /*line-height: 88px;*/\n  /* or 102% */\n\n  letter-spacing: -1px;\n}\n#hero p{\n  position: static;\n  width: 491px;\n  height: 68px;\n  left: calc(50% - 491px/2);\n  top: calc(50% - 68px/2 + 62.5px);\n  font-family: Open Sans;\n  font-style: normal;\n  font-weight: normal;\n  font-size: 20px;\n  line-height: 34px;\n  color: #9893A3;\n}\n.herobutton{\n  position: static;\n  display: flex;\n  flex-direction: row;\n  justify-content: center;\n  align-items: center;\n  width: 180px;\n  height: 51px;\n  margin-right: 150px;\n  background: #3D251E;\n  border: 1px solid #3D251E;\n  box-sizing: border-box;\n  border-radius: 50px;\n  font-style: normal;\n  font-weight: bold;\n  font-size: 14px;\n  line-height: 19px;\n  text-align: center;\n  color: #FFFFFF;\n}\n#batkatailustracija{\n  position: absolute;\n  width: 380px;\n  left: 700px;\n  top: 90px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -30474,9 +30475,11 @@ var render = function () {
           1
         ),
         _vm._v(" "),
-        _c("router-link", { attrs: { to: "/login", id: "herobutton" } }, [
-          _vm._v(" Locate Coffee "),
-        ]),
+        _c(
+          "router-link",
+          { staticClass: "herobutton", attrs: { to: "/login" } },
+          [_vm._v(" Locate Coffee ")]
+        ),
       ],
       1
     ),
@@ -31731,9 +31734,11 @@ var render = function () {
           1
         ),
         _vm._v(" "),
-        _c("router-link", { attrs: { to: "/login", id: "herobutton" } }, [
-          _vm._v(" Locate Coffee "),
-        ]),
+        _c(
+          "router-link",
+          { staticClass: "herobutton", attrs: { to: "/login" } },
+          [_vm._v(" Locate Coffee ")]
+        ),
       ],
       1
     ),
@@ -31751,9 +31756,11 @@ var render = function () {
             ),
           ]),
           _vm._v(" "),
-          _c("router-link", { attrs: { to: "/login", id: "herobutton" } }, [
-            _vm._v(" Locate Coffee "),
-          ]),
+          _c(
+            "router-link",
+            { staticClass: "herobutton", attrs: { to: "/login" } },
+            [_vm._v(" Locate Coffee ")]
+          ),
         ],
         1
       ),
@@ -32137,9 +32144,11 @@ var render = function () {
           1
         ),
         _vm._v(" "),
-        _c("router-link", { attrs: { to: "/login", id: "herobutton" } }, [
-          _vm._v(" Locate Coffee "),
-        ]),
+        _c(
+          "router-link",
+          { staticClass: "herobutton", attrs: { to: "/login" } },
+          [_vm._v(" Locate Coffee ")]
+        ),
       ],
       1
     ),

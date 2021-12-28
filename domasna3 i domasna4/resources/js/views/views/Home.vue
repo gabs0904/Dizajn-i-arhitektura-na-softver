@@ -10,8 +10,9 @@
         <router-link to="/about" id="home">About Us </router-link>
         <router-link to="/how" id="howItWorks">How It Works</router-link>
 
+
       </div>
-      <router-link to="/login" id="herobutton"> Locate Coffee </router-link>
+      <router-link to="/login" class="herobutton"> Locate Coffee </router-link>
 
     </div>
 
@@ -19,7 +20,7 @@
       <div id="heroContent">
         <h1>Local coffee shop finder</h1>
         <p>Discover new places with the most flavored coffee in your area.</p>
-          <router-link to="/login" id="herobutton"> Locate Coffee </router-link>
+          <router-link to="/login" class="herobutton"> Locate Coffee </router-link>
       </div>
     </div>
     <div id="batkatailustracija">
@@ -191,7 +192,7 @@ body{
   line-height: 34px;
   color: #9893A3;
 }
-#herobutton{
+.herobutton{
   position: static;
   display: flex;
   flex-direction: row;

@@ -10,7 +10,7 @@
         <router-link to="/how" id="aboutUs">How It Works</router-link>
 
       </div>
-        <router-link to="/login" id="herobutton"> Locate Coffee </router-link>
+        <router-link to="/login" class="herobutton"> Locate Coffee </router-link>
     </div>
     <svg id="diagram" viewBox="0 0 1187 612" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 111C0 102.163 7.16344 95 16 95H91C99.8366 95 107 102.163 107 111V133C107 141.837 99.8366 149 91 149H16C7.16345 149 0 141.837 0 133V111Z" fill="#1976D2"/>
