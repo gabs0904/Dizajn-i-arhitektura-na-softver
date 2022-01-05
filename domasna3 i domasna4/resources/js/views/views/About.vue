@@ -168,8 +168,7 @@
 </template>
 <style>
 body{
-  /*width: 1440px;*/
-  /*height: 1024px;*/
+
   background: #FFFFFF;
 }
 #navbar.logo{
@@ -253,7 +252,6 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /*padding: 16px 30px;*/
   margin-right: 124px;
   position: static;
   width: 170px;

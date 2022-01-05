@@ -669,7 +669,7 @@ export default {
             }).addTo(this.map);
             this.map.fitBounds(polyline.getBounds());
              L.marker([lat,lon]).addTo(this.map);
-            //this.map.removeLayer(polyline);   this works but where do i put it
+            
             $("#searchbox").on('keypress',function(e) {
                 if(e.which == 13) {
                     this.map.remove(polyline);

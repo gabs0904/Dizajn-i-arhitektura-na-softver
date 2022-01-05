@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8b74f1f-76da-4481-8ff4-4b3f887d6fb1" name="Default Changelist" comment="" />
+    <list default="true" id="b8b74f1f-76da-4481-8ff4-4b3f887d6fb1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/domasna3 i domasna4/resources/js/views/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/domasna3 i domasna4/resources/js/views/views/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domasna3 i domasna4/resources/js/views/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/domasna3 i domasna4/resources/js/views/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domasna3 i domasna4/resources/js/views/views/Home2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/domasna3 i domasna4/resources/js/views/views/Home2.vue" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="TaskManager">

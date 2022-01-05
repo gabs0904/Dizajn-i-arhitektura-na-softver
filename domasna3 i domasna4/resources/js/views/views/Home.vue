@@ -121,7 +121,7 @@ body{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /*padding: 16px 30px;*/
+
   margin-right: 124px;
   position: static;
   width: 170px;
@@ -158,7 +158,7 @@ body{
   position: static;
   width: 401px;
   height: 355px;
-  /*left: 344.5px;*/
+
   top: 0px;
 }
 #hero h1{
@@ -168,14 +168,13 @@ body{
   left: 100px;
   top: 0px;
 
-  /* H1 --desktop */
+
 
   font-family: Playfair Display;
   font-style: normal;
   font-weight: bold;
   font-size: 66px;
-  /*line-height: 88px;*/
-  /* or 102% */
+
 
   letter-spacing: -1px;
 }

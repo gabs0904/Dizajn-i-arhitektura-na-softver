@@ -4,8 +4,6 @@
     <img  id="logo"  style="position: absolute; width: 150px; left:60px;" src="/images/thumbnail.png">
     <img id="subtract" src="/images/Subtract.png" style="position: absolute;">
 
-    <!--<p id="home">Home</p>
-    <p id="map">Map</p>-->
 
     <a  href="Home2.html" id="homeicon" style="position: absolute">
         <img src="/images/home.png"></a>
@@ -80,9 +78,6 @@ export default {
 
   name: "gray-page",
   created: function () {
-      // axios.get("/../database/map.geojson").then((result) => {
-      //     console.log(result.data);
-      // })
 
   },
   destroyed: function () {
@@ -646,13 +641,17 @@ export default {
 
     mounted() {
       document.body.style.backgroundColor = "#E2E2E2";
-
+      /**
+       *
+       * map initialisation
+       *
+       **/
       this.map=L.map('osm-map',{
           center: [41.9972, 21.4331],
           minZoom: 2,
           zoom: 13
       })
-          //.setView([41.9972, 21.4331],7);
+
         L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
             subdomains: ['a','b','c']
@@ -663,9 +662,14 @@ export default {
              L.marker([this.markers[i].Latitude, this.markers[i].Longitude]).bindPopup(this.markers[i].Name).addTo(this.map);
         }
 
-        //this.addCounter();
+
         var bounds = this.map.getBounds();
         var count=0;
+        /**
+         *
+         * counts the markers visible to the user
+         *
+         **/
         this.map.eachLayer(function(layer) {
             if (layer instanceof L.Marker) {
                 if (bounds.contains(layer.getLatLng())) count++;
@@ -738,8 +742,6 @@ body{
     font-weight: bold;
     font-size: 32px;
     line-height: 48px;
-    /* identical to box height */
-
     display: flex;
     align-items: center;
 
@@ -762,8 +764,6 @@ body{
     font-weight: bold;
     font-size: 32px;
     line-height: 48px;
-    /* identical to box height */
-
     display: flex;
     align-items: center;
 
@@ -823,7 +823,7 @@ iframe{
     font-weight: 500;
     font-size: 22px;
     line-height: 33px;
-    /* identical to box height */
+
 
     display: flex;
     align-items: center;
