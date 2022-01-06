@@ -129,12 +129,7 @@ export default {
           locations: json,
       }
     },
-  created: function () {
-    document.body.style.backgroundColor = "#E2E2E2";
-  },
-  destroyed: function () {
-    document.body.style.backgroundColor = null;
-  },
+
     methods: {
       CalcDistanceBetween(lat1, lon1, lat2, lon2) {
         //Radius of the earth in:  1.609344 miles,  6371 km  | var R = (6371 / 1.609344);
@@ -189,24 +184,28 @@ export default {
 
             }
 
+        },
+        initMap() {
+            this.map = L.map('osmmap', {
+                center: [41.9972, 21.4331],
+                minZoom: 2,
+                zoom: 16
+            })
+            L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+                subdomains: ['a', 'b', 'c']
+            }).addTo(this.map);
+            this.map.dragging.enable();
         }
     },
 
     mounted() {
     document.body.style.backgroundColor = "#E2E2E2";
 
-        this.map=L.map('osmmap',{
-            center: [41.9972, 21.4331],
-            minZoom: 2,
-            zoom: 16
-        })
-        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-            subdomains: ['a','b','c']
-        }).addTo(this.map);
-        this.map.dragging.enable();
+    this.initMap();
 
-}
+
+    }
 };
 
 

@@ -2615,12 +2615,6 @@ __webpack_require__.r(__webpack_exports__);
       locations: _CafeInfo_json__WEBPACK_IMPORTED_MODULE_3__
     };
   },
-  created: function created() {
-    document.body.style.backgroundColor = "#E2E2E2";
-  },
-  destroyed: function destroyed() {
-    document.body.style.backgroundColor = null;
-  },
   methods: {
     CalcDistanceBetween: function CalcDistanceBetween(lat1, lon1, lat2, lon2) {
       //Radius of the earth in:  1.609344 miles,  6371 km  | var R = (6371 / 1.609344);
@@ -2671,20 +2665,23 @@ __webpack_require__.r(__webpack_exports__);
         jquery__WEBPACK_IMPORTED_MODULE_2___default()("#results").empty().append("not in the database");
         document.getElementById("searchbox").value = "";
       }
+    },
+    initMap: function initMap() {
+      this.map = leaflet__WEBPACK_IMPORTED_MODULE_1___default().map('osmmap', {
+        center: [41.9972, 21.4331],
+        minZoom: 2,
+        zoom: 16
+      });
+      leaflet__WEBPACK_IMPORTED_MODULE_1___default().tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+        subdomains: ['a', 'b', 'c']
+      }).addTo(this.map);
+      this.map.dragging.enable();
     }
   },
   mounted: function mounted() {
     document.body.style.backgroundColor = "#E2E2E2";
-    this.map = leaflet__WEBPACK_IMPORTED_MODULE_1___default().map('osmmap', {
-      center: [41.9972, 21.4331],
-      minZoom: 2,
-      zoom: 16
-    });
-    leaflet__WEBPACK_IMPORTED_MODULE_1___default().tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-      subdomains: ['a', 'b', 'c']
-    }).addTo(this.map);
-    this.map.dragging.enable();
+    this.initMap();
   }
 });
 
