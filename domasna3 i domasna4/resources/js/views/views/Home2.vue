@@ -77,9 +77,7 @@ import vue2Leaflet from 'vue2-leaflet'
 export default {
 
   name: "gray-page",
-  created: function () {
 
-  },
   destroyed: function () {
     document.body.style.backgroundColor = null;
   },

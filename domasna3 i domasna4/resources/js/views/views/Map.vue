@@ -1,6 +1,8 @@
 <template>
   <div id="mappage">
-    <img style="position: absolute; width: 150px; left:60px;" src="/images/thumbnail.png">
+      <router-link to="/">
+          <img style="position: absolute; width: 150px; left:60px;" src="/images/thumbnail.png">
+      </router-link>
     <svg style="position: absolute;top:80px;" width="346" height="260" viewBox="0 0 346 260" fill="none" xmlns="http://www.w3.org/2000/svg">
       <g filter="url(#filter0_d_357_122)">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M4.00002 69.7051C4.00002 69.376 4.0057 69.0481 4.01697 68.7217C4.55409 84.8185 17.7724 97.7029 34 97.7029H250.279C266.848 97.7029 280.279 84.2715 280.279 67.703V44C290.213 48.3008 297.163 58.1914 297.163 69.7051C297.163 85.1679 284.628 97.703 269.165 97.703H31.9978C16.535 97.703 4.00002 85.1679 4.00002 69.7051ZM4 181.697C4 166.234 16.535 153.699 31.9978 153.699H33.865C17.699 153.77 4.55233 166.628 4.01696 182.68C4.00568 182.354 4 182.026 4 181.697ZM280.279 207.402C290.213 203.101 297.163 193.21 297.163 181.697C297.163 166.234 284.628 153.699 269.165 153.699H250.414C266.921 153.772 280.279 167.175 280.279 183.699V207.402ZM250.398 153.699H269.165C284.628 153.699 297.163 141.164 297.163 125.701C297.163 110.238 284.628 97.7031 269.165 97.7031H61.1606C45.6978 97.7031 33.1628 110.238 33.1628 125.701C33.1628 141.126 45.636 153.637 61.0462 153.698H250.279C250.319 153.698 250.358 153.699 250.398 153.699Z" fill="white"/>
@@ -129,7 +131,9 @@ export default {
           locations: json,
       }
     },
-
+    destroyed: function () {
+        document.body.style.backgroundColor = null;
+    },
     methods: {
       CalcDistanceBetween(lat1, lon1, lat2, lon2) {
         //Radius of the earth in:  1.609344 miles,  6371 km  | var R = (6371 / 1.609344);
